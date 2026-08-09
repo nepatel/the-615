@@ -63,16 +63,35 @@ the Board collapsed to ONE flowing spoken sentence with rounded numbers; the ful
 2-3 spoken sentences per topic section; sports scores in a line or two; sign off "That's The 6:15.
 Trains are running." Spoken register throughout: "low eighties" not "$82.15", "four point one percent"
 not "4.1%", "the ten-year" not "10Y UST". Target 1,200-1,500 words (~9-11 min).
-Then run: ./make_audio.sh daily-brief/audio-script.txt daily-brief-audio-YYYY-MM-DD.mp3
+Then run: ./make_audio.sh daily-brief/audio-script.txt daily-brief-audio-latest.mp3
 (It fetches the Piper voice model if absent and falls back to espeak-ng if the download is blocked —
-if it falls back, say so in the email.)
+if it falls back, say so in the email. Filename is fixed, not dated — see DELIVER for why.)
 
 === DELIVER (email, since this runs in the cloud) ===
-Email both files to me at: neelhpatel94@gmail.com
-  Subject: The 6:15 — [Day, Month D]
-  Body: the three-line summary of the top items, plus the audio length.
-  Attach: the PDF and the MP3.
-Use the connected Gmail connector to send it.
+Do NOT attach the PDF or MP3 to the email. Both files are large enough that attaching them means
+inlining the raw bytes as base64 into a tool call, which costs on the order of 1 token per byte —
+a 126KB PDF alone runs to ~160K tokens, and the MP3 is 40x that. Neither Gmail attachments nor a
+Google Drive upload avoid this; both APIs only accept inline content, so this is a hard ceiling,
+not a "try harder" problem. Only git avoids it, because it transfers files straight off local disk
+without routing them through model output. So: commit and push first, then email links.
+
+1. Commit the PDF (daily-brief-YYYY-MM-DD.pdf, dated — these accumulate over time by design) and
+   the audio (daily-brief-audio-latest.mp3, fixed filename, overwritten each day so exactly one
+   current episode exists in the working tree) to the repo, and push.
+   Note: overwriting the audio filename keeps the working tree tidy but does NOT reclaim git
+   history storage — every day's ~5MB audio blob still persists in .git history at roughly
+   5MB/day (~1.9GB/year), versus the PDF's negligible ~126KB/day. At that rate the repo hits
+   GitHub's ~5GB soft-warning threshold in roughly 2.5-3 years. Not urgent, but flag it in the
+   email's colophon/note if you're within ~6 months of that threshold, and treat "squash or prune
+   old audio blobs from history" as a periodic maintenance task, not something to automate silently
+   (rewriting pushed history needs a human's go-ahead).
+2. Email me at: neelhpatel94@gmail.com
+     Subject: The 6:15 — [Day, Month D]
+     Body: the three-line summary of the top items, plus the audio length, plus a GitHub link to
+       each file (blob or raw.githubusercontent.com URL, on whatever branch you just pushed to).
+       The repo is private, so note the links require being logged into GitHub — that's expected.
+   Use the connected Gmail connector. If it only supports creating drafts (no send tool), create
+   the draft with this body and say so plainly — don't silently leave it as a draft with no note.
 
 === CONTINUITY ===
 After sending, write the plain-text version of today's issue to daily-brief/latest.md and commit it
