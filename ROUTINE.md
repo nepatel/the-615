@@ -68,7 +68,7 @@ Then run: ./make_audio.sh daily-brief/audio-script.txt daily-brief-audio-YYYY-MM
 if it falls back, say so in the email.)
 
 === DELIVER (email, since this runs in the cloud) ===
-Email both files to me at: [REPLACE WITH YOUR EMAIL ADDRESS]
+Email both files to me at: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
   Body: the three-line summary of the top items, plus the audio length.
   Attach: the PDF and the MP3.
