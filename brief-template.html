@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: 5.5in 8.5in; margin: 0.5in 0.5in 0.55in 0.5in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Charter", "Georgia", "Times New Roman", serif;
+    font-size: 11.7pt;
+    line-height: 1.52;
+    color: #16150f;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  .masthead { border-bottom: 2.5px solid #16150f; padding-bottom: 6px; margin-bottom: 3px; }
+  .masthead h1 {
+    font-size: 27pt; letter-spacing: -0.5px; margin: 0;
+    font-weight: 700; line-height: 1;
+  }
+  .dateline {
+    display: flex; justify-content: space-between;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; letter-spacing: 0.09em; text-transform: uppercase;
+    color: #6a6558; border-bottom: 0.75px solid #16150f;
+    padding: 4px 0 5px; margin-bottom: 15px;
+  }
+  h2.sec {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.6pt; letter-spacing: 0.15em; text-transform: uppercase;
+    font-weight: 700; color: #8c2d16;
+    border-bottom: 1.5px solid #8c2d16;
+    padding-bottom: 3px; margin: 22px 0 9px;
+  }
+  h2.sec:first-of-type { margin-top: 4px; }
+  h3.lede {
+    font-size: 15.5pt; line-height: 1.2; margin: 2px 0 8px;
+    font-weight: 700; letter-spacing: -0.2px;
+  }
+  p { margin: 0 0 8.5px; text-align: justify; hyphens: auto; }
+  .board { margin-bottom: 4px; }
+  .blk {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.9pt; line-height: 1.42; margin-bottom: 11px;
+  }
+  .blk .hd {
+    font-size: 7.4pt; letter-spacing: 0.13em; text-transform: uppercase;
+    color: #6a6558; font-weight: 700; margin-bottom: 3px;
+  }
+  .row { display: flex; border-bottom: 0.5px solid #ded9cc; padding: 2.4px 0; }
+  .row .k { flex: 0 0 33%; font-weight: 600; padding-right: 8px; }
+  .row .v { flex: 1; color: #35322a; }
+  .row:last-child { border-bottom: none; }
+  .flag { color: #8c2d16; font-weight: 600; }
+  .note {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; line-height: 1.4; color: #6a6558;
+    font-style: normal; margin-top: 2px;
+  }
+  .sports {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 9pt; line-height: 1.45;
+  }
+  .sports .row .k { flex: 0 0 27%; }
+  .kicker {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #8c2d16; font-weight: 700; margin-bottom: 3px;
+  }
+  .colophon {
+    border-top: 0.75px solid #16150f; margin-top: 18px; padding-top: 6px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; line-height: 1.45; color: #6a6558;
+  }
+  .pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     THE 6:15 — layout template. Replace the placeholder content
+     below each day; do not change the CSS above.
+     Render at 5.5in x 8.5in with 0.5in margins (0.55in bottom).
+     ============================================================ -->
+
+<div class="masthead"><h1>The 6:15</h1></div>
+<div class="dateline">
+  <span>DAY · MONTH D, YYYY</span>
+  <span>No. N</span>
+</div>
+
+<h2 class="sec">The Board</h2>
+<div class="board">
+  <div class="blk">
+    <div class="hd">Calendar</div>
+    <div class="row"><div class="k">Date</div><div class="v">Event</div></div>
+    <div class="note">Notes on omitted or unconfirmed dates go here.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Metrics · TIME ET unless noted</div>
+    <div class="row"><div class="k">Series</div><div class="v">Level, change <span class="flag">(flag if unverified)</span></div></div>
+    <div class="note">Source-of-record note and any divergence between quotes.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Hormuz counters</div>
+    <div class="row"><div class="k">Counter</div><div class="v">Value (vendor, methodology)</div></div>
+    <div class="note">Methodology reconciliation note — required every issue.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Transactions</div>
+    <div class="row"><div class="k">Team</div><div class="v">Move or "no reported moves in the last 24 hours"</div></div>
+  </div>
+</div>
+
+<h2 class="sec">Lead</h2>
+<div class="kicker">SHORT KICKER</div>
+<h3 class="lede">Headline sentence.</h3>
+<p>Body paragraphs.</p>
+
+<h2 class="sec">Politics</h2>
+<p>Body.</p>
+
+<h2 class="sec">Economics</h2>
+<p>Body.</p>
+
+<h2 class="sec">Business</h2>
+<p>Body.</p>
+
+<h2 class="sec">Technology</h2>
+<p>Body.</p>
+
+<div class="pagebreak"></div>
+
+<h2 class="sec">Geopolitics</h2>
+<p>Body.</p>
+
+<h2 class="sec">Iran &amp; Hormuz</h2>
+<p>Body.</p>
+
+<h2 class="sec">Sports</h2>
+<div class="sports">
+  <div class="row"><div class="k">Team</div><div class="v">One line.</div></div>
+</div>
+
+<div class="colophon">
+  <strong>Continuity.</strong> Notes on what was dropped as unchanged.<br><br>
+  <strong>Unverified figures</strong> are marked in red. Nothing was estimated or filled from memory.
+</div>
+
+</body>
+</html>
