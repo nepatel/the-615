@@ -68,12 +68,27 @@ Then run: ./make_audio.sh daily-brief/audio-script.txt daily-brief-audio-YYYY-MM
 if it falls back, say so in the email.)
 
 === DELIVER (email, since this runs in the cloud) ===
-Email both files to me at: neelhpatel94@gmail.com
+The Gmail connector only supports creating drafts — there is no send tool. Create the draft; a
+separate Apps Script on the account sends whatever draft it finds each morning. Do not attempt
+to attach the PDF/MP3 inline: this has been tried and reliably fails (base64-encoding either file,
+even the ~120KB PDF, blows past the session's context budget well before the MP3 is even
+considered). Instead:
+  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
+     CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
+  2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
+       https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-YYYY-MM-DD.pdf
+       https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-audio-YYYY-MM-DD.mp3
+     (nepatel/the-615 is a public repo, so these resolve with no sign-in required.)
+Draft to: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
-  Body: the three-line summary of the top items, plus the audio length.
-  Attach: the PDF and the MP3.
-Use the connected Gmail connector to send it.
+  Body: the three-line summary of the top items, the audio length, and the two links above.
 
 === CONTINUITY ===
-After sending, write the plain-text version of today's issue to daily-brief/latest.md and commit it
-to the repo's default branch, so tomorrow's run can read it and avoid repeating stories.
+Before overwriting it, if daily-brief/latest.md already exists, copy it to
+daily-brief/issues/YYYY-MM-DD.md (dated for the day it covered) so the archive accumulates rather
+than being lost each run. Read the issue number out of the outgoing latest.md's title line and
+increment it for today's issue (start at No. 1 only if no prior latest.md/archived issue exists
+anywhere in daily-brief/ — check daily-brief/issues/ too, not just latest.md, in case of gaps).
+Then write today's plain-text issue to daily-brief/latest.md, and commit + push everything —
+latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — directly to the
+repo's default branch (main), so tomorrow's run can read it and avoid repeating stories.

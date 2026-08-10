@@ -1,4 +1,4 @@
-# The 6:15 — Monday, August 10, 2026 (No. 1)
+# The 6:15 — Monday, August 10, 2026 (No. 2)
 
 ## The Board
 
@@ -67,7 +67,7 @@ Oman-Iran technical track: agreed shipping-lane coordinates + proposed joint coo
 - Northwestern: off-season. 2026 opener 9/5 vs. South Dakota State at Martin Stadium.
 
 ## Continuity notes for next issue
-This is issue No. 1 — everything above was tagged [NEW]/[DEVELOPING] with nothing to compare against. For tomorrow: drop anything below that hasn't moved by the next run —
+Correction: this was actually issue No. 2 — issue No. 1 (Aug 9) exists at daily-brief/issues/2026-08-09.md but wasn't visible to this run due to a branch mix-up, now fixed. Everything above was tagged [NEW]/[DEVELOPING] as if there were nothing to compare against; a few items (Hormuz Day-162 baseline, the Houthi Aramco/Jazan strike, the July jobs miss, AMD/Astera Labs Q2 prints) actually carry over from issue No. 1 and should not be re-introduced as [NEW] going forward. For tomorrow: drop anything below that hasn't moved by the next run —
 - Hormuz technical-deal mechanics (routes/coordination center) unless there's a signed agreement or a break
 - Warsh/Fed political backstory (confirmation vote details) unless there's new Fed action
 - War powers vote details unless there's a new vote
