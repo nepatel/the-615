@@ -36,11 +36,16 @@ The PDF is rendered with headless Chromium via Playwright; if unavailable, insta
 
 === STRUCTURE ===
 1. THE BOARD (front-loaded, scannable, no prose): Calendar (next 10 days: earnings w/ consensus,
-   FOMC, CPI/PPI/PCE/NFP/claims, auctions, elections, OPEC+, lockups/index dates); Metrics (Brent,
-   WTI, spread; 2y/10y/30y; DXY; S&P & Nasdaq futures; VIX; gold; Asia & Europe closes; retail gas;
-   overnight abs and %); Hormuz counters (transits vs baseline, strikes 24h + running total, dark-tanker
-   count, war-risk premia, closures — per methodology rules above); Transactions (Yankees, Knicks,
-   Northwestern — moves only).
+   FOMC, CPI/PPI/PCE/NFP/claims, auctions, elections, OPEC+, lockups/index dates; also political
+   primaries; major rocket launches — Starship, Neutron, New Glenn, Artemis/NASA, Chinese equivalents
+   e.g. Long March/Zhuque; frontier AI model releases; major VC funding rounds. These four are as
+   often retrospective as scheduled — include a notable one from the prior 24-48h even with no
+   forward date, tagged [NEW]/[DEVELOPING] per the usual rules, rather than waiting for a calendar
+   slot; skip the sub-bullet entirely on a day with nothing verified in it rather than padding);
+   Metrics (Brent, WTI, spread; 2y/10y/30y; DXY; S&P & Nasdaq futures; VIX; gold; Asia & Europe closes;
+   retail gas; overnight abs and %); Hormuz counters (transits vs baseline, strikes 24h + running total,
+   dark-tanker count, war-risk premia, closures — per methodology rules above); Transactions (Yankees,
+   Knicks, Northwestern — moves only).
 2. LEAD (~500 words, up to ~700 when a major print warrants): whichever story moved most; mechanism
    and second-order consequence; the only discursive section.
 3. TOPIC SECTIONS (~4 paragraphs, ~120 words each), in order, skipping any with nothing new:
