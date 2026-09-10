@@ -73,18 +73,21 @@ Then run: ./make_audio.sh daily-brief/audio-script.txt daily-brief-audio-YYYY-MM
 if it falls back, say so in the email.)
 
 === DELIVER (email, since this runs in the cloud) ===
-The Gmail connector only supports creating drafts — there is no send tool. Create the draft; a
-separate Apps Script on the account sends whatever draft it finds each morning. Do not attempt
-to attach the PDF/MP3 inline: this has been tried and reliably fails (base64-encoding either file,
-even the ~120KB PDF, blows past the session's context budget well before the MP3 is even
-considered). Instead:
+As of issue No. 12 (2026-09-10), the Gmail connector's mcp__Gmail__send_message tool works and
+sends directly — no draft/Apps-Script relay needed. (Earlier issues believed only drafts were
+possible; that may have been true once, or may have been a mistaken assumption — either way,
+send_message now returns a message id on success. If it errors on some future run, fall back to
+mcp__Gmail__create_draft and note the fallback in the next issue's colophon.)
+Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails
+(base64-encoding either file, even the ~120KB PDF, blows past the session's context budget well
+before the MP3 is even considered). Instead:
   1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
      CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
   2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-YYYY-MM-DD.pdf
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-audio-YYYY-MM-DD.mp3
      (nepatel/the-615 is a public repo, so these resolve with no sign-in required.)
-Draft to: neelhpatel94@gmail.com
+Send to: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
   Body: the three-line summary of the top items, the audio length, and the two links above.
 
