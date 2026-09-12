@@ -60,6 +60,12 @@ Weekends: Metrics/Calendar to two lines; cut Economics/Business unless something
 Copy brief-template.html, fill in content, render to PDF at 5.5in x 8.5in, 0.5in margins (0.55in bottom),
 via headless Chromium. Do not restyle — the narrow page is deliberate for phone legibility.
 Filename daily-brief-YYYY-MM-DD.pdf.
+As of issue No. 14 (2026-09-12): `pip install playwright --break-system-packages` (not just
+`playwright-core` — no node_modules in this repo) and drive it from Python. The pre-installed
+Chromium at $PLAYWRIGHT_BROWSERS_PATH (/opt/pw-browsers) lives under a versioned subdirectory,
+e.g. /opt/pw-browsers/chromium-1194/chrome-linux/chrome, not .../chromium/chrome-linux/chrome —
+glob for `chromium-*/chrome-linux/chrome` if the version number has moved on, and pass that
+executable_path explicitly to chromium.launch().
 
 === AUDIO COMPANION ===
 Write a SEPARATE spoken script (don't read the page aloud) to daily-brief/audio-script.txt:
