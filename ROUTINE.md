@@ -87,12 +87,14 @@ mcp__Gmail__create_draft and note the fallback in the next issue's colophon.)
 Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails
 (base64-encoding either file, even the ~120KB PDF, blows past the session's context budget well
 before the MP3 is even considered). Instead:
-  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
-     CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
+  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push (see CONTINUITY
+     below) BEFORE composing the email, so the commit SHA is known.
   2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-YYYY-MM-DD.pdf
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-audio-YYYY-MM-DD.mp3
-     (nepatel/the-615 is a public repo, so these resolve with no sign-in required.)
+     (nepatel/the-615 is a public repo, so these resolve with no sign-in required — works for a
+     commit on any branch, not just main, so this step doesn't depend on CONTINUITY below landing
+     on main.)
 Send to: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
   Body: the three-line summary of the top items, the audio length, and the two links above.
@@ -104,5 +106,16 @@ than being lost each run. Read the issue number out of the outgoing latest.md's 
 increment it for today's issue (start at No. 1 only if no prior latest.md/archived issue exists
 anywhere in daily-brief/ — check daily-brief/issues/ too, not just latest.md, in case of gaps).
 Then write today's plain-text issue to daily-brief/latest.md, and commit + push everything —
-latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — directly to the
-repo's default branch (main), so tomorrow's run can read it and avoid repeating stories.
+latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — to the branch this
+session's own environment instructions designate (look for the "Develop on branch ..." line near
+the top of the conversation, not a fixed name — it has been `claude/epic-darwin-qzkioi` in recent
+runs but may change). That designation carries a hard "never push to a different branch without
+explicit permission" rule, and it is real: as of issue No. 14/15 (2026-09-12/13), pushing straight
+to main was not attempted for that reason, so origin/main sat two issues behind, stuck at No. 13,
+while main remained a strict git ancestor of the feature branch (i.e. fast-forwardable, no
+conflict, nothing to merge/resolve). Do not try to force a push to main to "fix" this — it's not
+broken, it's the designated-branch rule working as intended. Each day's run clones fresh onto that
+same designated branch, so daily-brief/latest.md is readable there regardless of main's state;
+continuity does not depend on main being current. If a future run is explicitly told it may push
+to main (or is asked to open a PR), do so then — otherwise leave main alone and just note its lag,
+if any, to the user in the delivery email as this issue's did.
