@@ -1,80 +1,82 @@
-# The 6:15 — Monday, September 28, 2026 (No. 20)
+# The 6:15 — Tuesday, September 29, 2026 (No. 21)
 
 ## The Board
 
 **Calendar — next 10 days**
-- Tue 9/29: Yankees host Red Sox, ALWC Series Gm 1, Yankee Stadium (start time unconfirmed: 6:08p vs. 8:00p ET across trackers).
-- Wed 9/30, 8:30a ET: August PCE price index (BEA) — first inflation print since the Sept. 16 hike; core seen +0.5% m/m (one tracker, not cross-verified).
-- Thu 10/1: Nike FQ1 2027 earnings after close; consensus $0.44 EPS/$11.32B rev (TipRanks/Benzinga, single-sourced).
-- Fri 10/2, 7:00p: Northwestern hosts Penn State, Ryan Field.
-- Mon 10/5: Knicks preseason opens at Philadelphia (5-game slate through Oct. 15, NBA-confirmed).
-- Standing overhang: FOMC next meets Oct. 27-28, now priced by CME FedWatch/Polymarket at 64%-73% odds of a second 2026 hike, up from the low-30s before September's decision. Next funding deadline Dec. 11. OPEC+'s October JMMC date still unconfirmed [continuity]. SpaceX's Starship Flight 14 — first orbital attempt, first flight with an operational payload (26 Starlink V3 satellites) — has a launch window 8:15a-9:30a ET; no liftoff confirmed as of this writing [NEW]. No new frontier AI-model releases confirmed overnight [continuity].
+- Tue 9/29, 8:00a/10:00a ET: July Case-Shiller HPI (8a); Sept Conference Board Consumer Confidence & Aug JOLTS (10a). No consensus forecast published for either as of this writing.
+- Tue 9/29, 8:00p ET: Yankees host Red Sox, ALWC Gm 1, Yankee Stadium (NBC) — start time now confirmed (was a two-tracker discrepancy in issue No. 20).
+- Wed 9/30, 8:30a ET: August PCE price index (BEA) — first inflation print since the Sept. 16 hike.
+- Thu 10/1, after close: Nike FQ1 2027 earnings; consensus $0.44 EPS / $11.33B rev, 23 analysts (Alphastreet) — cross-verified, firmer than Monday's single-sourced figure.
+- Fri 10/2, 8:00p ET: Northwestern hosts Penn State (3-1) at new Ryan Field — venue debut.
+- Mon 10/5: Knicks preseason opens at Philadelphia.
+- Standing: FOMC next meets Oct. 27-28, priced 65%-72% odds of a second 2026 hike (CME FedWatch and trackers, up from ~30% pre-September). Funding runs on the Dec. 11 CR — no Sept. 30 shutdown risk. OPEC+'s October JMMC date still unconfirmed [continuity]. SpaceX's Starship Flight 14 reached orbit for the first time Monday, delivered 26 Starlink V3 satellites, then returned early after one orbit [NEW, resolves yesterday's pending window]. Nvidia launched an Open Agent Safety Platform (OpenShell + Sentry) Sept. 28, backed by Anthropic, Arm, Microsoft, Oracle and SpaceX — not OpenAI [NEW].
 
 **Metrics · ET unless noted**
-- Brent $106.89-$107.82 (+2.5% to +3.4%, range across trackers, ~5a-9a ET); WTI $94.10-$95.05 (+1.8% to +2.3%); spread ~$12-13.
-- 10Y 5.21% (+2bp); 30Y 5.52% (+2bp), both still in the 2007-high territory flagged in issue No. 19; 2Y not confirmed as of press time (last: 4.81%, Fri 9/25 close).
-- DXY 101.11 (+0.08%), near Friday's two-month high — up 1.70% over the past month, 3.28% over 12 months.
-- S&P 500 futures +0.47%, Nasdaq 100 futures +0.40%, Dow futures +0.86% (premarket); cash open not yet confirmed. VIX not confirmed as of press time (last: 14.87, Fri 9/25 close).
-- Gold $4,146.98-$4,156.76 (-2.99%), a seven-week low — real-yield/dollar strength outweighing the Hormuz safe-haven bid.
-- Asia (Mon close): Nikkei 66,333.53 (-0.1%); Hang Seng 24,684.09 (+0.7%); ASX 200 8,688.60 (+0.3%); Kospi 6,916.30 (-2.3%); Shanghai Composite 3,820.82 (-1.7%). Europe mid-session, not confirmed as of press time.
-- AAA national gas average $4.4768/gal (as of 9/28), -$0.0018 w/w — still near the calendar-date record flagged Saturday.
-- Divergence note: no single Brent/WTI settle reconciled across sources this morning; treat the complex as directional.
+- Brent $105.31-$107.82 (no settle reconciled); WTI $93.16 close-$94.44 intraday (+2.2%) — unreconciled divergence; spread ~$11-13.
+- 2Y 4.94% (Mon close); 10Y 5.24% (-1bp, 2007-high); 30Y 5.56% (+4bp, fresh 2004-high). Fed funds target 3.75%-4.00%.
+- DXY 101.36 (+0.16%), near 2-mo high; +1.94% 1mo, +3.67% 12mo.
+- S&P futures -0.26%, Nasdaq 100 futures -0.44% (premarket) vs. QQQ +0.13% intraday — diverging. VIX 14.87 (Mon close, last confirmed).
+- Gold $4,141.32, -2.95% w/w, 7-week low.
+- Asia (Mon close): Nikkei 65,878 (-0.73%, snaps 5-session streak); Hang Seng ~24,510 (Fri, stale). Europe (Mon close): FTSE 10,684.88 (-0.10%); DAX 25,374.42 (-0.13%); CAC 8,078.48 (+0.01%).
+- AAA gas $4.4768/gal as of 9/28 — not reconfirmed today.
 
 **Hormuz counters**
-- Transits: 1 recorded Sept. 20 vs. 85/day pre-crisis baseline (IMF PortWatch via straits.live, as of 4:55a ET) — a 98.8% reduction; tracker's data runs days behind real time.
-- Vessels holding: 177 AIS-visible vessels in the Gulf watch box as of 4:55a ET, down from 233 at 10:49p ET Sunday — an unexplained same-day swing, treated as tracker noise, not confirmed de-escalation. Comparable recent reads on this counter have run 219, 243 and 214, so the range has been noisy for weeks.
-- War-risk premia: 7.5%-10% of hull value fleet-wide (Howden Re/Marsh/S&P Global) — roughly $3M-$10M per transit on a $100M tanker vs. ~$250K pre-conflict; an industry-range figure, not quantified in today's straits.live brief.
-- Crisis events: 95 indexed events, trailing 24h (straits.live's proprietary Hormuz Index — single-sourced, flagged).
-- Methodology: transit counts (PortWatch, lagged), stranded-vessel counts (AIS analysis, same-day volatility) and war-risk premia (insurance-market reporting, periodic) measure different things over different windows and vendors; never averaged or differenced here. Two new disclosed incidents this run: 8 US Marines injured Sept. 14 in a previously undisclosed Iranian missile strike, and a disputed second REMUS 600 drone-seizure claim (Iran claims, US CENTCOM denies).
+- Transits: 1 on Sept. 20 vs. 85/day pre-crisis baseline (IMF PortWatch, still most recent published day).
+- Vessels holding: 233 AIS-visible, 02:49 UTC Sept. 28 (Windward/straits.live) — within the noisy 177-243 band of the past week.
+- War-risk premia: ~10% of hull value fleet-wide; ~$10M per transit on a $100M tanker vs. ~$250K pre-conflict (Howden Re/Marsh/S&P Global range, unchanged).
+- Crisis Pressure: "extreme" band, rising over 24h, transit deviation the top contributor (straits.live Hormuz Index — single-sourced, flagged).
+- Methodology: transit counts (PortWatch, lagged), stranded-vessel counts (AIS, same-day volatility) and war-risk premia (insurance-market reporting, periodic) measure different things over different windows and vendors; never averaged or differenced here.
 
 **Transactions**
-- Yankees: Host Red Sox, ALWC Series Gm 1, Tue 9/29 at Yankee Stadium; no other moves.
-- Knicks: Signed rookie wing Tyler Nickel to a two-way deal Sun 9/27; full 5-game preseason schedule now NBA-confirmed (Oct. 5 at Philadelphia, Oct. 8 vs. Wizards, Oct. 12 vs. Timberwolves, Oct. 13 at Toronto, Oct. 15 vs. Raptors).
+- Yankees: Host Red Sox, ALWC Gm 1, tonight 8:00p ET; record 93-68.
+- Knicks: Training camp opened Sept. 29; no personnel moves.
 - Northwestern: No reported moves in the last 24 hours.
 
-## Lead: Iran's foreign minister rules out re-engaging with Trump "even if it comes to a doomsday war"; Trump calls Tehran's offer overplayed but still expects talks this week
+## Lead: Waltz says Tehran wanted sanctions relief up front; Araghchi says he never saw the real offer — and Washington's answer is due today
 
-Saturday's rejection (issue No. 19) hardened overnight. On NBC's "Meet the Press," Foreign Minister Abbas Araghchi said Iran has "no reason to come back to diplomacy and engage with this administration once again," citing repeated US strikes through Trump's second term, and warned: "We stand firm in the face of any aggression against us, even if it comes to a doomsday war." [NEW, fact] He also dismissed Trump's public rejection as inconsistent with what has reached Tehran through mediators: "The US president has made some good remarks as well as many contradictory ones, which unfortunately we hear from him frequently." [fact] Formally little has changed since Sunday — Araghchi again said Qatar and Pakistan have conveyed nothing from Washington — but the tone has: Saturday was a stalled channel; today is a foreign minister disclaiming any obligation to use it.
+Waltz gave the first detailed US account Sunday of what Trump rejected: Iran's seven-day Hormuz-reopening proposal (submitted Sept. 16) asked for sanctions relief and access to "billions in frozen assets" before any nuclear negotiation began — "everything up front, with a promise that they would then talk." He called it "a pretty cynical attempt to put something on the table that they knew was unacceptable." [fact] That reframes the rejection as a sequencing dispute rather than a flat refusal to engage — a materially different read than Sunday's "doomsday war" framing alone suggested. [read]
 
-Trump's own position is harder to pin down. In an Axios interview Sunday, he said Iran's terms are ones Washington "might have agreed to about a year ago" and that Tehran had "overplayed its hand" — dismissive language — yet in the same interview said he expects negotiations to resume this week regardless. [fact/flag: not obviously reconcilable] Markets have one clear, hardening data point out of Tehran and two contradictory ones out of Washington.
+Separately, Axios/CNN reported Monday that Trump is privately willing to grant sanctions relief and release frozen funds — but only after Iran delivers "concrete progress" on the nuclear file. [fact] That's close to the destination Iran says it wants; the fight is over who moves first.
 
-The scale of the conflict came into sharper relief this morning: the Pentagon confirmed eight US Marines were injured (smoke inhalation, possible concussions, all returned to duty) when an Iranian missile struck a vessel they were operating from in the Strait on Sept. 14 — undisclosed for two weeks. [NEW, fact] Separately, Iran's IRGC claims it seized a second US REMUS 600 underwater drone Sept. 27 via "a coordinated, complex operation"; US CENTCOM denies it, consistent with its denial of a similar Sept. 8 claim the Pentagon said involved a malfunctioning, non-sensitive older drone. [NEW, fact/disputed, unresolved]
+Araghchi disputed Waltz's account on the same broadcast, saying Iran offered to open the Strait if the US released frozen assets and allowed oil sales, and suggesting Waltz hadn't seen the actual proposal: "There has been no change whatsoever in Iran's positions." [fact, disputed] Both sides describe versions of the same trade but present it as irreconcilable in order.
 
-None of this shows up yet in the physical Hormuz counters (Board), which move on lags. What moved was price: Brent jumped as much as 3.4% to $106.89-$107.82 and WTI to $94-95, erasing Friday's pullback, on the rejection headline alone — the market pricing Araghchi's words, not physical flows. [read] Oman's mediation offer draws no new comment from either side this morning; it remains the one channel neither side has explicitly closed. The second-order read: a Fed that hiked Sept. 16 and is now priced at 64%-73% odds of hiking again Oct. 27-28 (CME FedWatch/Polymarket, up from the low-30s pre-September, on Fed Governor Barr's hawkish commentary) is watching oil re-accelerate into Wednesday's PCE print at the moment the diplomatic off-ramp is being disclaimed by Iran's own FM. [read] Equities aren't flinching yet — S&P/Nasdaq futures are higher alongside the oil/yield moves, reading less like conviction the story is contained and more like a market that already priced a war economy last week. [read]
+Qatari mediators met separately with Araghchi in New York and with US officials Monday; Araghchi expects an official US response "hopefully" by Tuesday — today. [fact] Nothing in the physical Hormuz counters has moved; price has, inconsistently — Brent eased toward $105 from Monday's $106.89-$107.82 range while WTI pushed to $94.44 intraday (+2.2%), a divergence likelier to reflect thin pre-settlement positioning than a clean risk read. [read] 10Y eased 1bp to 5.24% (still a 2007-high); 30Y hit a fresh 2004-high at 5.56%. Equity futures softened even as tech (QQQ) traded higher on semis — a market pricing neither clean de-escalation nor clean hardening. [read]
+
+Stakes: Fed hike odds for Oct. 27-28 sit at 65%-72% (up from ~30% pre-September), one day ahead of Wednesday's August PCE — the first inflation read since the Sept. 16 hike. Today's Iran response, this morning's data batch, and tomorrow's PCE compound within 48 hours. Watch whether today's US response engages the sequencing question directly, or ignores it — the latter would be the more bearish signal for oil and duration.
 
 ## Politics
 
-China confirmed Monday the two-month US-China trade truce extension runs to Jan. 10, calling it "a relatively stable and predictable policy environment." [DEVELOPING] Terms disclosed since Friday's summit wrap: tariff cuts on $30B of goods, a bilateral AI-incident communication channel with a follow-up dialogue by late November, and a Chinese commitment to review US-capital financial institutions for branch licenses. [fact] Taiwan, Ukraine and the Iran war were raised in discussions but produced no deliverable; rare-earth/tech-control disputes remain unresolved. [fact]
+China confirmed Monday the US-China trade truce runs to Jan. 10; new detail shows the tariff relief is bigger than first disclosed — a "30-for-30" framework, $30B cuts each side, $60B combined (double Friday's initial figure), plus an AI-incident channel with a late-November follow-up. [DEVELOPING] Rare-earth/tech-control disputes remain unresolved. Flag: the truce's goods list (toys, holiday goods) doesn't touch Nike's Vietnam-concentrated tariff exposure (Business, below).
 
 ## Economics
 
-Wednesday's 8:30a ET August PCE release is the week's load-bearing data point — first read since the Sept. 16 hike, last before Oct. 27-28 FOMC. One tracker's consensus: core PCE +0.5% m/m (vs. July's +0.1%), annual headline/core near 6.6%/4.7% — not cross-verified this run, treat as directional. [flag] Hike odds already moved on commentary alone: CME FedWatch/Polymarket at 64%-73% for a second 2026 hike, up from ~30% pre-September, after Governor Barr's hawkish remarks. [fact]
+Today: July Case-Shiller (8a), September Consumer Confidence and August JOLTS (10a) — no consensus published for either as of writing. [flag] August Confidence missed (89.4 vs. 90.3 forecast). None of it displaces Wednesday's 8:30a PCE, the last data before Oct. 27-28 FOMC, where hike odds have already moved on oil and commentary ahead of the number itself.
 
 ## Business
 
-Nike reports FQ1 2027 after Thursday's close; consensus (single-sourced) $0.44 EPS/$11.32B revenue (-11%/-3% y/y) — a bar it cleared by 54% last quarter. [flag] Earnings Whispers shows 31 reporters today, thinning to 9/11/7/2 through Friday, nothing confirmed as a premarket mover. Q3 season proper starts the second full week of October.
+Nike reports FQ1 2027 Thursday after close; consensus now cross-verified at $0.44 EPS/$11.33B rev (23 analysts, Alphastreet), -11%/-3% y/y. [fact] Tariff line to watch: ~50% footwear sourcing from Vietnam (46% tariff rate) vs. 18% China; prior guidance of a $1B gross tariff hit and a margin headwind raised once already from ~75bp to 120bp. A repeat increase Thursday would be the signal to watch.
 
 ## Technology
 
-September's frontier-model wave (Claude Fable 5.1/Mythos 5.1, GPT-6 Astra broad release, Gemini 3.8 Flash, Muse Spark 1.3, plus 20+ further late-September releases) is now continuity, not daily news — no new step-change overnight. [continuity] SpaceX's Starship Flight 14 — first orbital attempt, first operational payload (26 Starlink V3 satellites) — has an 8:15a-9:30a ET window; no liftoff confirmed as of this writing. [NEW]
+Nvidia's Jensen Huang unveiled the Open Agent Safety Platform Sept. 28 (OpenShell sandboxing + Sentry monitoring on BlueField-4 DPUs); backed by Anthropic, Arm, Microsoft, Oracle, SpaceX — not OpenAI, notable given OpenAI's own agent caused the August Hugging Face breach the platform is positioned against. [NEW, fact/read] SpaceX's Starship Flight 14 reached orbit for the first time Monday, delivered 26 Starlink V3 satellites (first revenue flight), then returned early after one orbit; reason and Flight 15 date not yet confirmed. [NEW, flag] No new frontier LLM releases overnight [continuity].
 
 ## Geopolitics
 
-Houthi-Saudi attacks escalated in frequency: Saturday's intercepted strike (2 ballistic missiles toward Khamis Mushait, 2 drones toward Riyadh) came two days after a Sept. 24 intercept of 6 missiles toward Yanbu/Taif. [DEVELOPING] GCC secretary-general called it "a serious violation of Saudi Arabia's sovereignty." Saudi Arabia, Pakistan and Turkey signed a Makkah Joint Defense Agreement (mutual-defense clause), separate from the US-Saudi relationship. [NEW]
+Russia attacked 24 Sumy Oblast settlements over 24h (guided bombs, mortars, drones; 4 injured); Ukraine air defense downed 1 Zircon/Oniks missile, 2 Iskander-M/S-400 ballistic missiles, 106 UAVs since Monday evening. Kyiv market strike killed 2; Odesa infrastructure fire overnight. [NEW] No new confirmed Houthi-Saudi strike since Sept. 26 (issue No. 20); Makkah Joint Defense Agreement stands. [continuity]
 
 ## Iran & Hormuz
 
-Physical counters show no confirmed change (transits lagging, vessel-holding count swung 233→177 in a day, unexplained — treat as noise). War-risk premia given only as an industry range this run (7.5%-10% of hull value), not a daily print — methodology gap. [flag] The Sept. 14 Marine casualties and the disputed REMUS 600 claim both suggest a more active, less fully disclosed shadow war than the running counters capture.
+Physical counters show no confirmed change (Board). Hormuz Index "Crisis Pressure" in extreme band, rising, transit deviation top contributor (straits.live, single-sourced). [flag] New this run: bulk carrier MV Cape Dao struck by two torpedoes off Oman's Musandam coast Sept. 23, killing Indian crew member Suraj Yadav, 26; 27 others evacuated by Oman's navy; unclaimed by Iran or US. [NEW, fact] Combined with the previously undisclosed Sept. 14 Marine casualties and the disputed REMUS-drone claim, this points to a more active, less fully disclosed shadow war than the counters capture.
 
 ## Sports
-- Yankees: No game since Fri 9/25 loss to Baltimore (89-65, still unreconciled vs. issue No. 19's 91-67 tally); host Red Sox in ALWC Gm 1 Tue 9/29.
-- Knicks: No game; signed two-way rookie Tyler Nickel Sun 9/27; preseason opens Oct. 5 at Philadelphia.
-- Northwestern: No game since Fri 9/25 loss at Indiana, 29-23 (2-1); hosts Penn State Fri 10/2, 7:00p, Ryan Field.
+- Yankees: 93-68; host Red Sox tonight, 8:00p ET, ALWC Gm 1, Yankee Stadium (NBC).
+- Knicks: No game; training camp opened Sept. 29; preseason opener Oct. 5 at Philadelphia.
+- Northwestern: 2-1, no game since Sept. 25 loss at Indiana (29-23); hosts Penn State (3-1) Fri. 10/2, 8:00p, Ryan Field (venue debut).
 
 ## Continuity notes for next issue
 
-Not refreshed this run: European closes (not yet closed as of writing), confirmed VIX/2Y intraday levels, OPEC+'s exact October JMMC date, the CNN/Politico/MS NOW press-access thread, and Ukraine/Sumy developments. Watch for next issue: Wednesday's PCE print and its effect on Oct. 27-28 odds; whether the Yankees-Red Sox ALWC Gm 1 start time resolves; Starship Flight 14's outcome; whether Araghchi's "doomsday war" language is echoed or walked back through the week; and whether the 233-to-177 Hormuz vessel-count swing resolves into a real trend.
+Cut from issue No. 20 as unmoved/resolved: Yankees ALWC start-time flag (now confirmed 8:00p), Hormuz methodology explainer (Board note only), Sept. 14 Marine-casualty/REMUS-drone items (referenced, not re-detailed). Not refreshed this run: today's European/Asian cash closes, same-day AAA gas, Fed speakers' specific remarks, September Consumer Confidence/JOLTS consensus (none published as of writing). Watch for next issue: Washington's promised Iran response (due today); Wednesday's PCE and its effect on Oct. 27-28 odds; ALWC Gm 1 result; whether the 177-243 Hormuz vessel-count band resolves into a trend; any Cape Dao attribution; Starship Flight 15 date.
 
 ## Unverified figures flagged this issue
 
-The exact Brent/WTI settle (range given, not reconciled), 2Y and VIX levels (not confirmed, prior close carried), August PCE consensus figures (single-tracker), Nike's earnings consensus (single-sourced), the Yankees ALWC Gm 1 start time (two conflicting times reported), and the straits.live vessel-holding count's 233-to-177 same-day swing (unexplained by the source) — all carried above with explicit flags rather than presented as settled fact.
+No Brent/WTI settle reconciled this morning; VIX, AAA gas and the Hang Seng close carried from the most recent confirmed print rather than today's session; no consensus forecast published for today's Consumer Confidence/JOLTS; Starship Flight 14's early-return cause and Flight 15 date not confirmed — all carried above with explicit flags rather than presented as settled fact.
