@@ -1,82 +1,84 @@
-# The 6:15 — Thursday, October 1, 2026 (No. 22)
+# The 6:15 — Tuesday, October 6, 2026 (No. 23)
 
 ## The Board
 
 **Calendar — next 10 days**
-- Thu 10/1, 10:00a ET: September ISM Manufacturing PMI.
-- Thu 10/1, after close: Nike FQ1 2027 earnings; consensus $0.44 EPS / $11.33B rev, 23 analysts (Alphastreet).
-- Thu 10/1, 8:00p ET: Yankees host Red Sox, ALWC Gm 3 (decisive), Yankee Stadium (NBC/Peacock).
-- Fri 10/2, 8:30a ET: September Nonfarm Payrolls (BLS).
-- Fri 10/2, 8:00p ET: Northwestern hosts Penn State (3-1), Ryan Field (venue debut).
-- Sat 10/3: ALDS Gm 1 — Yankees/Red Sox winner at Tampa Bay.
-- Sun 10/4: OPEC+ 68th JMMC meeting.
-- Mon 10/5: Knicks preseason opens at Philadelphia.
-- Tue 10/14, 8:30a ET: September CPI.
-- Wed 10/15, 8:30a ET: September PPI.
-- Standing: FOMC next meets Oct. 27-28; funding runs on the Dec. 11 CR, no shutdown risk [continuity]. US-China truce to Jan. 10 unchanged since Monday [continuity]. No new frontier-AI release or rocket launch verified this run; Starship Flight 15 date still TBD.
+- Wed 10/7, 8:00p ET: Yankees host Rays, ALDS Gm 3 — Yankees face elimination, down 0-2 (truTV, Yankee Stadium).
+- Wed 10/8: Knicks preseason home opener vs. Washington, Madison Square Garden.
+- Sat 10/10: Northwestern hosts Ball State, Homecoming, Ryan Field.
+- Tue 10/14, 8:30a ET: September CPI (BLS). No consensus located this run [flag].
+- Wed 10/15, 8:30a ET: September PPI; advance retail sales.
+- Oct 12-16: ~48 companies report earnings (Nasdaq); none individually verified this run [flag].
+- Standing: FOMC meets Oct 27-28 — hike odds now a cycle-low ~17% after Friday's payrolls miss (see Lead). Funding runs on the Dec. 11 CR, no shutdown risk [continuity]. US-China truce to Jan. 10 unchanged [continuity]. No new frontier-AI release, rocket launch, or VC mega-round verified this run — skipped rather than padded.
 
 **Metrics · ET unless noted**
-- Brent $100.36 (+2.38%) / WTI $92.01 (+1.76%), both intraday, no settle yet; spread ~$8.35.
-- 2Y 4.91% (-0.2bp) / 10Y 5.32% (+2.7bp) / 30Y 5.66% (+2.5bp), ~6a ET.
-- DXY 101.91 (+0.45%), extending Monday's 101.36.
-- S&P/Nasdaq futures not sourced this run; VIX 16.60 (+1.59%, 5:57a ET indicative).
-- Gold $4,159.43 (+0.04%), climbing toward $4,200 on the PCE miss.
-- Nikkei 69,046.00 (+3.43%, closed ~2:30a ET); Hang Seng 24,613.27 (+0.37%, Wed close). FTSE 10,443.53 (-1.53%), DAX 25,034.31 (-0.65%), CAC 7,869.99 (-1.19%) — all intraday reads, not closes.
-- AAA gas $4.4768/gal as of 9/28 — not reconfirmed today.
+- Brent $98.56-99.45 (-1.75% to -3.63% across feeds), WTI $87.78 (-1.85%), both intraday ~6:10-6:25a, no settle yet [flag]. Monday's settle: Brent $100.32 (-1.9%), WTI $89.43 (-1.8%). Spread ~$10.8.
+- 2Y 4.812% (-0.43%) / 10Y 5.276% (-0.70%) / 30Y 5.637% (-0.48%), ~6:20a.
+- DXY (Dec. future) 101.77 (-0.16%), ~6:24a.
+- S&P futures (ESZ26) 7,843.25 (+0.22%), Nasdaq 100 futures (NQ) 31,424.00 (+0.34%), both delayed quotes ~6:14a.
+- VIX 15.43 (-0.58%), ~6:01a.
+- Gold (Dec. future) $4,180.65 (+0.57%), ~6:24a.
+- Nikkei closed +1.26% (70,826.00); Hang Seng closed +1.00% (24,280.56). FTSE 10,552.50 (+0.52%), DAX 25,420.96 (+0.66%) — both intraday reads, not closes.
+- AAA gas $4.3685/gal as of today — page text elsewhere on the same report cites $4.41; flagging the internal inconsistency rather than picking one [flag].
 
 **Hormuz counters**
-- Transits: 1 on Sept. 27 vs. 85/day pre-crisis baseline (IMF PortWatch, still most recent published day).
-- Vessels holding: 135 AIS-visible, 23:50 UTC Sept. 30 (straits.live/Windward) — down sharply from 244 (Sept. 29) and 233 (Sept. 28); treated as noise, not yet a trend.
-- Strikes, 24h: 3 tankers hit by unidentified projectiles Tue night (UKMTO) — crude tanker (port side), inbound tanker, LNG tanker; no casualties, no attribution.
-- War-risk premia: ~10% hull value fleet-wide; ~$10M per transit on a $100M tanker — carried from issue No. 21; straits.live premia feed degraded today.
-- Crisis Pressure: "extreme" band, flat over 24h, transit deviation sole driver (straits.live, single-sourced).
-- Methodology: transit counts (PortWatch, lagged), stranded-vessel counts (AIS, same-day volatility) and war-risk premia (insurance-market reporting, periodic) measure different things over different windows and vendors; never averaged or differenced here.
+- Transits: 1 on Sept. 27 vs. 85/day pre-crisis baseline (IMF PortWatch) — feed has not published a newer day in ten days [flag, lagged].
+- Vessels holding: 191 AIS-visible, 10:21 UTC today (straits.live/AIS) — 8-day range 89-285; treated as noise, not trend.
+- Dark tankers (24h): 148 of 291 screened (baseline avg 84.2) (straits.live).
+- Strikes: UKMTO disclosed Monday that four tankers were struck and a fifth directly threatened since Sunday — the most intense stretch since the Feb. 28 war began; latest at 16:37 UTC Monday, engine-room fire, no casualties. Running weekly total (11 ships, straits.live chronology) single-sourced [flag].
+- War-risk premia: ~$10.0M per VLCC transit, ~30x pre-crisis (straits.live/insurance-market estimates) — consistent with issue No. 22.
+- Crisis Pressure: 88/100, "extreme," flat 24h. Escalation Forecast: 58/100, "elevated," flat 24h (straits.live, single-sourced, flag — scoring format changed from issue No. 22's qualitative bands).
+- Methodology: transit counts (PortWatch, lagged), AIS holding counts (same-day, volatile) and war-risk premia (periodic insurance-market reporting) measure different things over different windows; never averaged or differenced here.
 
 **Transactions**
-- Yankees: ALWC tied 1-1 after Wed's 4-3 Gm 2 win; decisive Gm 3 tonight, 8:00p ET.
-- Knicks: No reported moves in the last 24 hours.
-- Northwestern: No reported moves in the last 24 hours.
+- Yankees: Lost Gm 2, 5-2, at Tampa Bay; ALDS 0-2, face elimination Wed.
+- Knicks: Lost preseason opener, 97-120, at Philadelphia.
+- Northwestern: Beat Penn State, 34-13; 3-1 overall, 1-1 Big Ten.
 
-## Lead: Fed hike odds crater to roughly 35% on a soft PCE print — but oil is up anyway, after the worst night of tanker strikes in weeks
+## Lead: Fed hike odds for Oct. 28 collapse to a cycle-low ~17% after September payrolls badly miss — but oil is falling for reasons that have nothing to do with the Fed, even as Hormuz tanker strikes hit a wartime high
 
-August PCE, released Wednesday 8:30a ET, came in cooler than consensus on every line the Fed watches: headline +0.3% m/m (cons. +0.4%) and +3.4% y/y (cons. 3.7%); core +0.2% m/m (cons. +0.3%) and +3.0% y/y (cons. 3.3%, down from 3.3% in July). [fact] Two caveats: part of the y/y cooling traces to a BEA methodology change applied retroactively to 2021, complicating a clean trend read; and the personal saving rate fell to a near-four-year low — households outspending income even as prices cool. [fact/read]
+September nonfarm payrolls, released Friday 8:30a ET, printed +29,000 against a consensus near 84,000-90,000 — one of the widest misses of the cycle. [fact] The unemployment rate rose to 4.2% from 4.1% (consensus had looked for 4.1% unchanged); July and August payrolls were revised down a combined 60,000, leaving a net loss of 31,000 jobs once revisions are included; average hourly earnings rose just 0.1% m/m to $37.81, the softest wage print in months. [fact] Health care led the sparse job gains, adding 17,000 — itself below its own 12-month average of 33,000. [fact]
 
-The market reaction was large and fast. CME FedWatch's probability of a quarter-point hike at the Oct. 27-28 meeting fell to roughly 35% (one tracker: 34.9%), down from about 71% a week earlier; Kalshi and Polymarket converged in the same 33%-39% band by Thursday morning — a reversal of this brief's Tuesday report of 65%-72% odds, and one of the largest single-data-point swings in this series since the Sept. 16 hike. [fact]
+The repricing was immediate and large. Odds of a quarter-point hike at the Oct. 27-28 FOMC meeting collapsed to roughly 17% — a cycle low — from the high-70s just before the report, with "no change" probability surging to about 83%. [fact] That continues, and resolves, the thread this brief flagged Thursday: issue No. 22 reported hike odds already cratering to ~35% on a cooler-than-expected August PCE print; Friday's payrolls miss took the legs out from under the remainder of the hike case entirely. [DEVELOPING] December hike odds are holding up better, near 65% for the Dec. 9 meeting — the market's read is a hold in October with the tightening debate deferred, not abandoned. [fact/read] Equities celebrated: the Nasdaq Composite crossed 31,000 intraday for the first time ever Friday, the Dow added roughly 340 points, and chipmakers led, with Intel and AMD each up more than 3% as the 10-year fell more than 5bp to 5.176%. [fact] This morning's futures (S&P +0.22%, Nasdaq 100 +0.34%) extend that into the new week, and the 10-year's current 5.276% is still below its level before Friday's report. [fact]
 
-Crude didn't follow. Brent $100.36 / WTI $92.01 as of ~6a ET, up 2.38%/1.76%, no settle yet [flag] — because UKMTO reported three tankers struck by unidentified projectiles entering/transiting Hormuz Tuesday night: a crude tanker hit on its port side, a second hit while transiting inbound, and an LNG tanker also struck — the busiest stretch of strikes since the Sept. 23 Cape Dao attack, on top of the Kuwaiti supertanker Al Funtas hit Sept. 28. [NEW, fact] No casualties; UKMTO has not attributed the attacks; an uncorroborated social-media claim blaming Iran should be read as exactly that. [flag]
+Oil did not follow the dovish-data playbook — and in fact moved the opposite way from Thursday's pattern, when this brief noted crude pricing off the Hormuz risk premium rather than Fed data. Brent settled Monday at $100.32 (-1.9%), WTI at $89.43 (-1.8%); both are down again intraday Tuesday — Brent in a $98.56-99.45 range depending on feed, WTI at $87.78, no settle yet. [fact/flag] That's happening even as UKMTO disclosed Monday that four tankers were struck and a fifth directly threatened since Sunday — the most intense stretch of attacks since the US-Iran war began Feb. 28. [NEW, fact] Mechanism: Middle East crude exports topped pre-war levels on four of the last seven days despite the attacks, meaning physical flow through and around the strait is proving more resilient than the strike headlines imply; G7 nations agreed over the weekend, under pressure from Trump, to release 100 million barrels of crude and diesel from emergency reserves and pledged to avoid export restrictions; and Saudi Aramco just cut its November Arab Light price to Asia by $5/barrel below the regional benchmark — a materially deeper discount than October's $2 cut, reading as Riyadh positioning for soft demand rather than tight supply. [read]
 
-Mechanism: oil is currently pricing off the Hormuz risk premium, not the Fed's inflation data — a genuinely dovish PCE should have pulled the 10-year and dollar down with crude; instead the 10-year is flat at 5.32% (+2.7bp), the 30-year flat at 5.66% (+2.5bp), and DXY firmed to 101.91 (+0.45%). [read]
+Stakes: rates and equities are now trading off a softening labor market; oil is trading off exports-and-reserve-release logistics that have, for the moment, decoupled from the war headlines entirely — a genuine divergence, not noise. Oct. 14 CPI is now the swing print for whether the Fed's October hold becomes consensus or the December hike case reasserts on firmer inflation; watch whether IMF PortWatch's transit count — still frozen at a single vessel on Sept. 27 — ever catches up to the exports data, and whether Wednesday's elimination-game Yankees-Rays or the stalled Qatar-mediated Iran talks (below) produce anything concrete before the weekend.
 
-Stakes: a Fed with cover to hold if PCE keeps cooling into Oct. 14 CPI and Oct. 29 PCE — but if Hormuz attacks keep pushing crude higher, the hike case reasserts on a different channel before Oct. 27-28. Tomorrow's payrolls, tonight's Nike print, and the decisive Yankees-Red Sox game are all lower-stakes but land inside the same 48 hours. Watch whether Wednesday's US counter-proposal to Tehran (Iran & Hormuz, below) produces any de-escalation signal before the weekend — absent that, it's Hormuz, not the Fed, setting the tone.
+## Politics
+
+An NBC News poll released Sunday put Democrats ahead by eight points on the generic congressional ballot heading into next month's midterms, with 66% of voters describing themselves as highly interested in the race. [NEW, fact] That eight-point margin matches where Democrats stood ahead of 2018, when they flipped 40 House seats; two outlets' summaries of the same poll read it as a meaningful tailwind for Democratic House prospects, though a single poll six-ish weeks out is a read, not a result. [read] The September CR that funds the government through Dec. 11 remains the operative fact keeping a shutdown off the table through Election Day [continuity] — unchanged since issue No. 22, not re-adjectived further here.
 
 ## Economics
 
-Today's September ISM Manufacturing PMI (10a ET) is a secondary inflation channel read against Wednesday's cooler PCE. Tomorrow's September payrolls (8:30a ET) is the more load-bearing release — the Fed will read it for whether cooling inflation is arriving with a cooling labor market (supports a hold) or firm employment that keeps a hike live into Oct. 27-28. CPI follows Oct. 14, PPI Oct. 15, both carrying more weight given how far Wednesday's data point moved the odds. No consensus located for today's ISM print as of writing. [flag]
+September's ISM Manufacturing PMI, released Thursday, printed 54.6 against a 55.2 consensus — a miss, though still comfortably in expansion territory [fact, single-sourced via secondary coverage, not confirmed directly against ism.org this run — flag]. That release is now secondary to Friday's payrolls miss (Lead) as the data point setting the Fed's near-term path. Oct. 14 CPI and Oct. 15 PPI are the next load-bearing prints; no consensus for either located as of writing [flag]. The question markets are now asking is whether a softening labor market and an already-cooling PCE combine to pull core inflation down fast enough to make the Fed's December tightening odds (~65%) fade the way October's just did.
 
 ## Business
 
-Nike reports FQ1 2027 after today's close on the consensus cross-verified Tuesday: $0.44 EPS / $11.33B rev, 23 analysts (Alphastreet), -11%/-3% y/y; one additional estimate puts consensus EPS slightly higher at $0.45, within normal dispersion. [fact] Tariff line to watch: ~50% footwear sourcing from Vietnam (46% tariff) vs. 18% China; prior guidance of a $1B gross tariff hit, margin headwind raised once from ~75bp to 120bp. [continuity] Unchanged by the China-truce goods list (toys, holiday goods — not apparel/footwear). A Fed now seen more likely to hold is a mild tailwind for consumer-discretionary multiples broadly. [read] No results yet as of writing. [flag]
+Nike's actual FQ1 2027 results, reported Thursday after close, beat on EPS and missed narrowly on revenue against the consensus this brief cross-verified Tuesday: $0.48 diluted EPS (vs. $0.44 consensus) on $11.2B revenue (vs. $11.33B consensus), down 4% reported / 5% currency-neutral y/y. [NEW, fact] Gross margin rose 60bp to 42.8% on supply-chain cost management and FX tailwinds; Greater China revenue fell 26% as the company's marketplace reset continues to pressure that region. [fact] Guidance: FY27 revenue to decline at a high-single-digit rate, adjusted EPS $1.15-$1.35 excluding roughly $0.15/share tied to the Pace restructuring program. [fact] The next earnings cluster is Oct. 12-16 (~48 companies per Nasdaq's calendar); none individually verified this run [flag].
 
 ## Geopolitics
 
-Russia launched 49 attack drones and 5 missiles at Ukraine overnight (Ukrainian Air Force); most intercepted, but strikes caused damage/injuries in several oblasts including Kharkiv. [NEW, fact] Casualty figures beyond "injuries reported" not consistently sourced as of writing. [flag] No new confirmed Houthi-Saudi exchange since Sept. 26 (issue No. 20); Makkah Joint Defense Agreement stands. [continuity]
+Russia launched roughly 87 drones and four missiles at Ukraine overnight, targeting Kyiv and the Black Sea port of Odesa; Ukrainian air defense intercepted 56 drones and two missiles, and Kherson's governor reported one civilian dead and 15 injured in the region over the past 24 hours. [NEW, fact] No other casualty figures confirmed as of writing. [flag] OPEC+'s Joint Ministerial Monitoring Committee met over the weekend (resolving Sunday's calendar item) and reiterated it is "committed to current output policy," giving no fresh guidance on the pace of unwinding the group's voluntary 2.2mn b/d cuts — the panel repeated that the phase-out "could be paused or reversed" depending on market conditions. [DEVELOPING, fact] US-China truce to Jan. 10 stands unchanged [continuity].
 
 ## Iran & Hormuz
 
-The Trump administration sent a counter-proposal to Tehran through Qatari mediators Wednesday; FM Araghchi presented it to Iran's Cabinet; neither side has disclosed terms. [NEW, fact] Follows Trump's public rejection last week of Iran's seven-day Hormuz-reopening plan and Araghchi's Tuesday statement Tehran won't "back down" from its conditions while seeking "real diplomacy." [continuity] Whether the counter-proposal engages the sequencing dispute (sanctions relief/frozen-asset access before or after a nuclear deal) is unknown. [flag]
+UKMTO disclosed Monday that four tankers were struck by unidentified projectiles and a fifth directly threatened since Sunday — the most intense attack spell since the US-Iran war began Feb. 28. [NEW, fact] The latest hit a transiting tanker at 16:37 UTC Monday, starting an engine-room fire the crew fought without reported casualties or pollution. [fact] UKMTO and the Joint Maritime Information Center describe the pattern as concentrated on the Omani side of the strait, including one incident where a drone entered a tanker's funnel and ignited in the engine room; several struck vessels have temporarily lost propulsion before continuing independently or under tow. [fact] No attribution has been made. [flag]
 
-Physically, overnight was the most active stretch in weeks: 3 tankers hit by unidentified projectiles per UKMTO (crude tanker port-side, inbound tanker, LNG tanker), no casualties, no attribution. [NEW, fact] Adds to the Kuwaiti supertanker Al Funtas (Sept. 28) and the Sept. 23 Cape Dao torpedo attack (1 death). Despite the escalation, AIS-visible vessel-holding count fell sharply to 135 (23:50 UTC Sept. 30) from 244 the day before — treated as noise, not signal, pending another day's data. [flag] Transit data lagged at 1 vessel on Sept. 27 vs. 85/day baseline. War-risk premia not refreshed this run — straits.live premia feed degraded; Board carries issue No. 21's last confirmed range. [flag] Crisis Pressure: "extreme" band, flat, transit-deviation-driven; Escalation Forecast eased from "rising" Wednesday to "easing" this morning, flagged low-confidence by straits.live itself given the same data gaps. [read, single-sourced]
+Diplomatically, Qatari mediators were set to hold separate talks with FM Araghchi and with the US side in New York Monday or Tuesday on an amended version of Iran's seven-day Hormuz-reopening proposal — an end to hostilities, unfreezing Iranian assets, lifting sanctions on Iranian oil exports and the port blockade, in exchange for reopening the strait and resuming nuclear talks. [continuity/NEW] Trump has called the proposal "unacceptable" in public remarks; Araghchi says Tehran is awaiting a "definitive" formal response through mediators rather than treating Trump's statements as official. No outcome from the New York round is confirmed as of writing. [flag]
+
+Despite the strike escalation, the physical and flow picture is mixed rather than uniformly worse: straits.live's board (10:21 UTC today) shows transits still frozen at 1 vessel on Sept. 27 against an 85/day baseline — IMF PortWatch's feed hasn't posted a newer day in ten days [flag, lagged] — while 191 vessels sit AIS-visible and holding (8-day range 89-285, noisy) and 148 of 291 screened tankers are running dark versus an 84.2 baseline. [straits.live, single-sourced] War-risk premia hold near $10.0M per VLCC transit, roughly 30x pre-crisis. Crisis Pressure reads 88/100 ("extreme"), Escalation Forecast 58/100 ("elevated"), both flat over 24 hours — note the site has shifted from the qualitative bands used in issue No. 22 to numeric scores, which may not be a like-for-like comparison. [flag] A prediction-market contract on Hormuz reopening by Oct. 31 prices just 2% — a sentiment read, not a primary source. [flag] Yet Mideast crude exports topped pre-war levels on four of the last seven days, and Saudi Aramco just deepened its November Asian discount (see Lead) — the oil market is, for now, trading the export data over the strike count.
 
 ## Sports
 
-- Yankees: ALWC tied 1-1 after Wed's 4-3 Gm 2 win; decisive Gm 3 tonight, 8:00p ET, Yankee Stadium (NBC/Peacock).
-- Knicks: No game; preseason opens Mon. 10/5 at Philadelphia.
-- Northwestern: 2-1, no game since Sept. 25 loss at Indiana; hosts Penn State (3-1) Fri. 10/2, 8:00p, Ryan Field.
+- Yankees: Lost Gm 2, 5-2, at Tampa Bay; ALDS 0-2, face elimination Wed., Gm 3, 8:00p ET, Yankee Stadium (truTV).
+- Knicks: Lost preseason opener, 97-120, at Philadelphia; next Wed. 10/8 vs. Washington, MSG (home opener).
+- Northwestern: Beat Penn State, 34-13; 3-1 overall, 1-1 Big Ten; hosts Ball State Sat. 10/10 (Homecoming).
 
 ## Continuity notes for next issue
 
-Cut from issue No. 21 as unmoved: Politics (US-China truce detail, unchanged since Monday) and Technology (no new frontier-AI release or launch this run) — both dropped rather than re-adjectived. Not refreshed this run: today's European/Asian cash closes (mid-session as of writing), S&P/Nasdaq futures (not sourced), same-day AAA gas, Hormuz war-risk premia (straits.live feed degraded). Watch for next issue: Iran counter-proposal terms and Tehran's response; tonight's Gm 3 result and the ALDS matchup; Nike's actual print and tariff-margin guidance; Friday's payrolls; whether the 244→135 Hormuz vessel-count drop holds or reverts.
+Cut from issue No. 22 as unmoved: Technology (no new frontier-AI release, rocket launch, or VC mega-round verified this run, second issue running) and the US-China truce detail beyond a one-line standing note. Not refreshed this run: Asia/Europe cash closes beyond what's listed (European reads are intraday, not closes, as of writing); CPI/PPI consensus for Oct. 14/15; individual names in the Oct. 12-16 earnings cluster. Watch for next issue: the New York Qatar-mediated talks outcome; Wednesday's Yankees elimination game; whether PortWatch's transit count ever updates past Sept. 27; Oct. 14 CPI as the next Fed-path data point.
 
 ## Unverified figures flagged this issue
 
-No Brent/WTI settle this morning; S&P/Nasdaq futures not sourced; AAA gas carried from 9/28; war-risk premia carried from issue No. 21; the 135-vessel Hormuz count is a single overnight read; UKMTO tanker-strike attribution unconfirmed.
+ISM 54.6 single-sourced via secondary coverage, not confirmed against ism.org; all straits.live Hormuz figures (vessel counts, dark-tanker count, Crisis Pressure/Escalation Forecast scores, weekly strike total) single-sourced; AAA gas figure internally inconsistent on its own source page ($4.3685 vs. $4.41 cited elsewhere on the same report); no Brent/WTI settle this morning; DXY and gold quotes are December futures contracts, not spot index levels; Hormuz-reopening prediction-market odds are sentiment, not a primary source; no outcome confirmed for Monday/Tuesday's New York talks.
