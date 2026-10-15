@@ -106,3 +106,8 @@ anywhere in daily-brief/ — check daily-brief/issues/ too, not just latest.md, 
 Then write today's plain-text issue to daily-brief/latest.md, and commit + push everything —
 latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — directly to the
 repo's default branch (main), so tomorrow's run can read it and avoid repeating stories.
+As of issue No. 25 (2026-10-14): this session's harness scoped git pushes to a single feature
+branch (claude/epic-darwin-en4xw3) and refused pushes to main outright. Issue No. 25 went to that
+branch instead of main; issue No. 26 did the same. main is now one issue behind that branch's tip.
+If a future run has unrestricted push access again, merge the feature branch into main (fast-forward,
+no commits lost) before continuing — don't just resume pushing to main and fork the history.
