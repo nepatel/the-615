@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: 5.5in 8.5in; margin: 0.5in 0.5in 0.55in 0.5in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Charter", "Georgia", "Times New Roman", serif;
+    font-size: 11.7pt;
+    line-height: 1.52;
+    color: #16150f;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  .masthead { border-bottom: 2.5px solid #16150f; padding-bottom: 6px; margin-bottom: 3px; }
+  .masthead h1 {
+    font-size: 27pt; letter-spacing: -0.5px; margin: 0;
+    font-weight: 700; line-height: 1;
+  }
+  .dateline {
+    display: flex; justify-content: space-between;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; letter-spacing: 0.09em; text-transform: uppercase;
+    color: #6a6558; border-bottom: 0.75px solid #16150f;
+    padding: 4px 0 5px; margin-bottom: 15px;
+  }
+  h2.sec {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.6pt; letter-spacing: 0.15em; text-transform: uppercase;
+    font-weight: 700; color: #8c2d16;
+    border-bottom: 1.5px solid #8c2d16;
+    padding-bottom: 3px; margin: 22px 0 9px;
+  }
+  h2.sec:first-of-type { margin-top: 4px; }
+  h3.lede {
+    font-size: 15.5pt; line-height: 1.2; margin: 2px 0 8px;
+    font-weight: 700; letter-spacing: -0.2px;
+  }
+  p { margin: 0 0 8.5px; text-align: justify; hyphens: auto; }
+  .board { margin-bottom: 4px; }
+  .blk {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.9pt; line-height: 1.42; margin-bottom: 11px;
+  }
+  .blk .hd {
+    font-size: 7.4pt; letter-spacing: 0.13em; text-transform: uppercase;
+    color: #6a6558; font-weight: 700; margin-bottom: 3px;
+  }
+  .row { display: flex; border-bottom: 0.5px solid #ded9cc; padding: 2.4px 0; }
+  .row .k { flex: 0 0 33%; font-weight: 600; padding-right: 8px; }
+  .row .v { flex: 1; color: #35322a; }
+  .row:last-child { border-bottom: none; }
+  .flag { color: #8c2d16; font-weight: 600; }
+  .note {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; line-height: 1.4; color: #6a6558;
+    font-style: normal; margin-top: 2px;
+  }
+  .sports {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 9pt; line-height: 1.45;
+  }
+  .sports .row .k { flex: 0 0 27%; }
+  .kicker {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #8c2d16; font-weight: 700; margin-bottom: 3px;
+  }
+  .colophon {
+    border-top: 0.75px solid #16150f; margin-top: 18px; padding-top: 6px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; line-height: 1.45; color: #6a6558;
+  }
+  .pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     THE 6:15 — layout template. Replace the placeholder content
+     below each day; do not change the CSS above.
+     Render at 5.5in x 8.5in with 0.5in margins (0.55in bottom).
+     ============================================================ -->
+
+<div class="masthead"><h1>The 6:15</h1></div>
+<div class="dateline">
+  <span>MONDAY · OCTOBER 26, 2026</span>
+  <span>No. 31</span>
+</div>
+
+<h2 class="sec">The Board</h2>
+<div class="board">
+  <div class="blk">
+    <div class="hd">Calendar — next 10 days</div>
+    <div class="row"><div class="k">Tonight</div><div class="v">World Series Gm 3, Brewers at Rays, Tampa Bay (FOX) — Brewers lead 2-0</div></div>
+    <div class="row"><div class="k">Tue-Wed 10/27-28</div><div class="v">FOMC, 2:00p ET decision Wed. — hold priced ~90%, hike ~9-10% <span class="flag">(correction: thin as that is, it is hike risk, not the cut risk recent issues carried)</span></div></div>
+    <div class="row"><div class="k">Thu 10/29, 8:30a</div><div class="v">Q3 GDP advance estimate; Sept. PCE/personal income (BEA)</div></div>
+    <div class="row"><div class="k">Sat 11/1</div><div class="v">OPEC+ meets — no agenda details verified this run</div></div>
+    <div class="row"><div class="k">Tue 11/3</div><div class="v">US midterm elections</div></div>
+    <div class="note">Microsoft/Alphabet/Amazon/Meta and Coca-Cola/Boeing earnings dates: <span class="flag">not verified this run</span> [continuity]. No rocket launch, frontier-AI release or major VC round verified this run.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Metrics · as of ~6a ET unless noted</div>
+    <div class="row"><div class="k">Brent / WTI</div><div class="v">$115.10 (-1.39%) / $101.45 (-1.76%), oilprice.com ~6:00a ET <span class="flag">(~11-min delayed feed)</span>; spread ~$13.65</div></div>
+    <div class="row"><div class="k">2y/10y/30y UST</div><div class="v"><span class="flag">not confirmed as of press time</span> — Treasury.gov stuck on Aug. 25 data; last verified Fri. close 4.69%/5.00%/5.33%</div></div>
+    <div class="row"><div class="k">S&amp;P / Nasdaq fut.</div><div class="v">S&amp;P +0.30% to 7,682.75 (Yahoo Finance, 6:11a ET); Nasdaq 100 fut. +0.2% (Bloomberg)</div></div>
+    <div class="row"><div class="k">VIX</div><div class="v"><span class="flag">not confirmed as of press time</span>; last verified Fri. 19.45 (+2.21%)</div></div>
+    <div class="row"><div class="k">DXY</div><div class="v">~101.6-101.8, falling (FXStreet, 5:32a ET)</div></div>
+    <div class="row"><div class="k">Gold</div><div class="v">$4,005.20, +$10.30 (Kitco, 2:18a ET); Investing.com $4,017.13; Mitrade ~$3,988 <span class="flag">(~$30 cross-feed spread)</span></div></div>
+    <div class="row"><div class="k">Asia / Europe closes</div><div class="v"><span class="flag">not confirmed as of press time</span></div></div>
+    <div class="row"><div class="k">Retail gas (AAA)</div><div class="v">$4.2858/gal (10/26), down from $4.2957 (10/24) [NEW — breaks 3-day rise streak]</div></div>
+    <div class="note">Crude: ICE Brent/NYMEX WTI front-month. Rates: Treasury.gov. Equities/FX/gold: exchange feeds as cited; feeds disagree by design on gold — reported side by side, not averaged.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Hormuz counters</div>
+    <div class="row"><div class="k">Status</div><div class="v">Closed to commercial shipping, straits.live, Day ~239 [continuity, single-sourced framing]</div></div>
+    <div class="row"><div class="k">Transits</div><div class="v">Still 4 vessels/day, Oct. 18 (IMF PortWatch) vs. 85/day baseline — now 8 days stale</div></div>
+    <div class="row"><div class="k">Dark tankers</div><div class="v"><span class="flag">not reported this cycle</span> — straits.live AIS feed quiet; Sat.'s 72.0%/180-of-250 reading has no follow-up</div></div>
+    <div class="row"><div class="k">Crisis Pressure</div><div class="v">88±10 Extreme, flat (band widened from ±8) — straits.live</div></div>
+    <div class="row"><div class="k">Escalation Forecast</div><div class="v">62±9 High, flat vs. 61±11 Sat. (within noise) — straits.live</div></div>
+    <div class="row"><div class="k">War-risk premium</div><div class="v">32.0x pre-crisis, still dated Oct. 7 — now 19 days stale, background only</div></div>
+    <div class="row"><div class="k">Polymarket odds</div><div class="v"><span class="flag">not confirmed as of press time</span> — no current Oct. reading found; dropped rather than carried stale</div></div>
+    <div class="note">PortWatch (lagged AIS strait-transit count), straits.live's own AIS dark-tanker screen (sensitive to ambient dropout), UKMTO (advisories, none matching this period) and IRGC/state-media claims (no independent corroboration) measure different things over different windows — never averaged or differenced here. See Iran &amp; Hormuz.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Transactions</div>
+    <div class="row"><div class="k">Yankees</div><div class="v">Season over [continuity] — eliminated Oct. 7, swept 3-0 by Tampa Bay</div></div>
+    <div class="row"><div class="k">Knicks</div><div class="v">Lost 111-102 at home to Orlando, Sun. 10/25; now 0-3 [NEW]</div></div>
+    <div class="row"><div class="k">Northwestern</div><div class="v">Beat Rutgers 42-14, Sat. 10/24; now 6-1 (3-1 B1G), AP No. 20 [NEW]</div></div>
+  </div>
+</div>
+
+<h2 class="sec">Lead</h2>
+<div class="kicker">FOMC WATCH</div>
+<h3 class="lede">Markets price a Wednesday hold, but the live question — and the one the Fed itself flagged in September — is a second rate hike in December</h3>
+<p>Correct the record from recent issues first: this brief has carried the Oct. 27-28 FOMC meeting as a live-but-thin cut debate, "~20%-24% odds, unchanged," as recently as Saturday. That framing was already stale. A cut has not been the real action this cycle. On Sept. 16, the Fed raised its target range a quarter point to 3.75%-4.00% — its first hike since July 2023 — citing a strong labor market, elevated inflation, and the energy shock from the Iran war, per TradingEconomics and RSM's reporting (sources disagree on the vote count: some report unanimous or 12-0, which sits oddly against a 9-3 hold-with-dissent the meeting before). [fact, correction]</p>
+<p>That September meeting's projections matter more than this week's decision. Per RSM and TradingEconomics, 16 of 18 officials saw at least one more quarter-point hike as likely appropriate by year-end — a dot plot pointing straight at December. (Morningstar's own read of the same projections — that the median sees two hikes already done and no more — conflicts with that and is unreconciled here; treat as a single flagged discrepancy, not resolved.) [fact/flag]</p>
+<p>Against that backdrop, Wednesday's decision is close to a formality: market-implied odds tracked across FXStreet, Invezz and CNBC's aggregation of CME FedWatch pricing (dated Oct. 22-24) put a hold at roughly 90%, a hike at 9-10%, and a cut effectively off the board. The December meeting is a different story — a hike there is priced at roughly 72%-80% depending on the tracker, up from about 70% shortly after Chair Warsh took the gavel in May. [fact, NEW/correction]</p>
+<p>The mechanism worth watching: this is not demand overheating. The inflation the Fed is fighting is substantially cost-push — the same Iran-war oil shock that put Brent at a war-high $116.72 Friday before easing this morning — compounded by AI-capex demand and resilient growth, not a classic wage-price spiral. [read] A December hike aimed at an energy-driven price problem risks slowing growth without doing much to its actual source, a tension Warsh hasn't been forced to resolve: he has said, as recently as Oct. 16, that he won't precommit to an outcome, a deliberate break from the Fed's standard practice of broadcasting its intentions well ahead of a meeting — odd, given how plainly September's own dot plot already did exactly that. [read]</p>
+<p>The market's cross-asset reaction this morning is consistent with "hike risk deferred to December," not resolved: equity futures are modestly higher (S&amp;P +0.30%, Nasdaq 100 futures +0.2%) on relief that Wednesday brings no surprise, even as oil and gold both ease rather than rally together, a tape that reads as repricing, not a clean risk-on or risk-off move. [fact/read] Watch Wednesday's statement and press conference for any language on December; watch Thursday's Q3 GDP and September PCE print, which lands as the next real data point in the hike-or-hold debate before the committee meets again.</p>
+
+<h2 class="sec">Economics</h2>
+<p>Beyond the Fed path (Lead), Thursday's 8:30a ET release bundles the Q3 GDP advance estimate with September PCE and personal income — the last major data drop before December's meeting enters range. Unofficial consensus chatter circulating on finance calendars (not an official forecast, and not from BEA) puts GDP growth near +3.6% and core PCE near +3.1% y/y; treat both as pre-print chatter, not a number to repeat as fact. [flag]</p>
+<p>OPEC+ meets Saturday, Nov. 1, with no agenda details verified this run — worth watching given Brent's pullback this morning from Friday's war-high settle. Big Tech earnings dates (Microsoft, Alphabet, Amazon, Meta) and Coca-Cola/Boeing remain unverified against Nasdaq and CNBC's calendars for a second straight issue, despite the Thursday GDP/PCE print sitting in the same week [continuity, flag].</p>
+
+<div class="pagebreak"></div>
+
+<h2 class="sec">Iran &amp; Hormuz</h2>
+<p>The most consequential item in the Hormuz file this morning is a denial, not a claim: CENTCOM said Sunday evening (Oct. 25, 18:04 ET per wire aggregation) that shipping routes remain clear of Iranian mines. No outlet has yet connected that statement by name to Saturday's IRGC claim that two supertankers were struck and disabled by naval mines — but the two sit in direct tension, and this is the first on-record US military comment bearing on that claim since it surfaced. [fact, NEW]</p>
+<p>Fresh claims kept arriving regardless. Times of India reported Monday (02:40 ET) that Iran fired a cruise missile at vessels in the strait, and separately ran a headline (07:21 ET) asserting October is the highest-attack month on record — the latter a headline characterization, not a verified count, and both are single-sourced with no UKMTO or flag-state corroboration. [fact/flag, NEW] Gulf News reported Sunday afternoon that roughly 500 vessels are delayed amid a new tanker-attack claim; Al Jazeera reported an oil slick washing up on UAE beaches, prompting closures at Umm Al Quwain; separately, a video circulating as footage of an attack on an Emirati tanker was fact-checked Sunday as outdated, not current. [fact, NEW]</p>
+<p>The quantitative counters this brief tracks went quiet rather than moving. PortWatch's transit count is unchanged at 4 vessels against the 85/day baseline, now 8 days stale — the longest unrevised stretch yet. straits.live's AIS dark-tanker screen, which jumped to 72.0% Saturday, has not updated; the feed itself is described as quiet, so Saturday's spike cannot be confirmed as holding or reverting. [fact/flag] Crisis Pressure (88±10, Extreme) and the Escalation Forecast (62±9, High) are both flat against Saturday, though each index's own confidence band has widened — read as the tracker itself growing less certain, not as calm returning. [fact/read]</p>
+<p>UKMTO has issued no advisory matching Oct. 24-26; its last confirmed advisory remains Oct. 20 (an interaction with military forces 121nm east of Duqm). Polymarket's odds on a return to normal transit, carried in every recent issue, could not be verified this run — third-party aggregators are stale or conflicting by months — so the figure is dropped rather than carried forward unflagged. [flag, continuity broken]</p>
+
+<h2 class="sec">Sports</h2>
+<div class="sports">
+  <div class="row"><div class="k">Yankees</div><div class="v">Season over; eliminated Oct. 7, swept 3-0 by Tampa Bay in the ALDS.</div></div>
+  <div class="row"><div class="k">Knicks</div><div class="v">0-3; lost 111-102 at home to Orlando Sun. night — first defending champion to open 0-3 since the 2011-12 Mavericks.</div></div>
+  <div class="row"><div class="k">Northwestern</div><div class="v">6-1 (3-1 B1G), AP No. 20 (up from No. 24); beat Rutgers 42-14 Sat. at Ryan Field. Next: at Oregon, Sat. 10/31.</div></div>
+  <div class="row"><div class="k">World Series</div><div class="v">Brewers lead Rays 2-0 after a 5-4 Game 2 comeback win Sat. in Milwaukee; Game 3 tonight in Tampa Bay (FOX).</div></div>
+</div>
+
+<div class="colophon">
+  <strong>Continuity.</strong> Politics stays cut — no polling past the Oct. 20 Reuters/Ipsos 31%-approval reading already carried in issues No. 28-30; nothing moved. Business and Technology are cut — no verified M&amp;A, corporate or tech news surfaced this run beyond the Fed story in the Lead. Geopolitics (Russia-Ukraine) stays cut — nothing dated past the single-sourced Oct. 11 item already dropped in prior issues. Rockets, frontier-AI releases and VC rounds: nothing verified this run.<br><br>
+  <strong>Unverified figures</strong> are marked in red: today's UST yields, VIX, Asia/Europe closes, and Hormuz Polymarket odds (all not confirmed as of press time — stale sources were not carried forward); the Times of India mine/missile and record-month claims (single-sourced); unofficial GDP/PCE consensus chatter ahead of Thursday's print; the Morningstar vs. RSM/TradingEconomics discrepancy on how many 2026 hikes the Fed's own dot plot implies. Nothing was estimated or filled from memory.
+</div>
+
+</body>
+</html>
