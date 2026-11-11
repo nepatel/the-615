@@ -96,6 +96,14 @@ before the MP3 is even considered). Instead:
 Send to: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
   Body: the three-line summary of the top items, the audio length, and the two links above.
+As of issue No. 40 (2026-11-11): mcp__Gmail__send_message's `attachments` field now accepts a
+file reference (`sha256:<hash>:<absolute path>`) instead of inline base64, which sidesteps the
+old context-budget problem — but the session's connector-call size cap (4.2MB total request,
+~3.1MB of files) still blocks it: the ~5MB MP3 alone exceeds it, even though the PDF alone (~150-
+250KB) would fit. Tried attaching both this issue; Gmail's own tool rejected the call before
+sending anything. Stuck with the GitHub-blob-link approach above rather than attaching only the
+PDF, to keep delivery consistent issue to issue. Worth revisiting if a future run wants PDF-only
+attachment plus a link for the MP3.
 
 === CONTINUITY ===
 Before overwriting it, if daily-brief/latest.md already exists, copy it to
@@ -106,3 +114,9 @@ anywhere in daily-brief/ — check daily-brief/issues/ too, not just latest.md, 
 Then write today's plain-text issue to daily-brief/latest.md, and commit + push everything —
 latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — directly to the
 repo's default branch (main), so tomorrow's run can read it and avoid repeating stories.
+As of issue No. 40 (2026-11-11): the cloud session's own harness instructions designate a
+specific feature branch (currently claude/epic-darwin-f5wyoa) and forbid pushing elsewhere
+without explicit permission — that overrides this file's "push to main" instruction, and issues
+No. 36, 37, 39 and 40 all actually landed on that feature branch rather than main (confirmed via
+git log). The GitHub-blob links in DELIVER still resolve fine off a feature-branch commit SHA.
+If a future run is told to develop on a different or no designated branch, follow that instead.
