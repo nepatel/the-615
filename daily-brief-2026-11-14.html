@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: 5.5in 8.5in; margin: 0.5in 0.5in 0.55in 0.5in; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Charter", "Georgia", "Times New Roman", serif;
+    font-size: 11.7pt;
+    line-height: 1.52;
+    color: #16150f;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  .masthead { border-bottom: 2.5px solid #16150f; padding-bottom: 6px; margin-bottom: 3px; }
+  .masthead h1 {
+    font-size: 27pt; letter-spacing: -0.5px; margin: 0;
+    font-weight: 700; line-height: 1;
+  }
+  .dateline {
+    display: flex; justify-content: space-between;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; letter-spacing: 0.09em; text-transform: uppercase;
+    color: #6a6558; border-bottom: 0.75px solid #16150f;
+    padding: 4px 0 5px; margin-bottom: 15px;
+  }
+  h2.sec {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.6pt; letter-spacing: 0.15em; text-transform: uppercase;
+    font-weight: 700; color: #8c2d16;
+    border-bottom: 1.5px solid #8c2d16;
+    padding-bottom: 3px; margin: 22px 0 9px;
+  }
+  h2.sec:first-of-type { margin-top: 4px; }
+  h3.lede {
+    font-size: 15.5pt; line-height: 1.2; margin: 2px 0 8px;
+    font-weight: 700; letter-spacing: -0.2px;
+  }
+  p { margin: 0 0 8.5px; text-align: justify; hyphens: auto; }
+  .board { margin-bottom: 4px; }
+  .blk {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 8.9pt; line-height: 1.42; margin-bottom: 11px;
+  }
+  .blk .hd {
+    font-size: 7.4pt; letter-spacing: 0.13em; text-transform: uppercase;
+    color: #6a6558; font-weight: 700; margin-bottom: 3px;
+  }
+  .row { display: flex; border-bottom: 0.5px solid #ded9cc; padding: 2.4px 0; }
+  .row .k { flex: 0 0 33%; font-weight: 600; padding-right: 8px; }
+  .row .v { flex: 1; color: #35322a; }
+  .row:last-child { border-bottom: none; }
+  .flag { color: #8c2d16; font-weight: 600; }
+  .note {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.6pt; line-height: 1.4; color: #6a6558;
+    font-style: normal; margin-top: 2px;
+  }
+  .sports {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 9pt; line-height: 1.45;
+  }
+  .sports .row .k { flex: 0 0 27%; }
+  .kicker {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #8c2d16; font-weight: 700; margin-bottom: 3px;
+  }
+  .colophon {
+    border-top: 0.75px solid #16150f; margin-top: 18px; padding-top: 6px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    font-size: 7.4pt; line-height: 1.45; color: #6a6558;
+  }
+  .pagebreak { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     THE 6:15 — layout template. Replace the placeholder content
+     below each day; do not change the CSS above.
+     Render at 5.5in x 8.5in with 0.5in margins (0.55in bottom).
+     ============================================================ -->
+
+<div class="masthead"><h1>The 6:15</h1></div>
+<div class="dateline">
+  <span>SATURDAY · NOVEMBER 14, 2026</span>
+  <span>No. 40</span>
+</div>
+
+<h2 class="sec">The Board</h2>
+<div class="board">
+  <div class="blk">
+    <div class="hd">Calendar — next 10 days (weekend: condensed)</div>
+    <div class="row"><div class="k">Tue 11/17</div><div class="v">Nvidia's first earnings call under interim CEO Colette Kress (Q3 FY27, 2p PT/5p ET) — the AI trade's most-watched print; Oct. retail sales, 8:30a ET; Bednar's $23.15M qualifying-offer deadline (Yankees).</div></div>
+      <div class="row"><div class="k">Wed 11/18</div><div class="v">Oct. housing starts, 8:30a ET. <span class="flag">Unconfirmed:</span> whether Huang's congressional briefing (requested for this date pre-resignation) still happens; one tracker's guess at an Anthropic IPO pricing date, not in the S-1 itself.</div></div>
+    <div class="note">No FOMC in this window — next meeting Dec. 9–10. Rocket launches, frontier-model releases and VC rounds: nothing cleared this brief's single-source bar this run.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Metrics · Fri. 11/13 close unless noted</div>
+    <div class="row"><div class="k">Equities / Oil</div><div class="v">S&amp;P 500 7,561.67 (-0.40%); Dow 52,347.55 (+0.10%); Nasdaq Comp. 25,136.27 (-0.91%, 2nd straight weekly loss). ICE Brent $95.84 (+0.02%, settle); NYMEX WTI $88.56 (-0.20%, settle) — both down ~2.5% on the week.</div></div>
+    <div class="row"><div class="k">Rates / Gold / Gas</div><div class="v">10Y drifting toward the high-4s/~5% area Fri., no clean settle found <span class="flag">[flag]</span>; gold $3,883.40 (+0.18%) <span class="flag">[flag, single-sourced]</span>; AAA nat'l gas avg. $3.98/gal (as of 11/10), first sub-$4 reading since spring.</div></div>
+    <div class="note">VIX, DXY and Asia/Europe Fri. closes not independently confirmed this run <span class="flag">[flag]</span>. Equities: Eurasia Business News market wrap; oil: Nation Thailand/MarketScreener (ICE/NYMEX settles).</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Hormuz counters — Day 258 of closure</div>
+    <div class="row"><div class="k">Transits</div><div class="v">8 crossings/24h as of Nov. 1 (4 in, 4 out, 3 dark), ~11% of ~73/day baseline — Windward via political.org archive, 13 days stale <span class="flag">[flag, aggregator]</span>.</div></div>
+    <div class="row"><div class="k">Flows</div><div class="v">Kpler: 11.7M b/d October, up from 9.8M b/d September — both well under the ~17.1M b/d pre-war baseline.</div></div>
+    <div class="row"><div class="k">Diplomacy</div><div class="v">Stalled, not advancing — see Iran &amp; Hormuz.</div></div>
+    <div class="note">Methodology note: transit counts, barrel-flow estimates, war-risk premia and IRGC/UKMTO claims measure different things on different cadences and are never averaged or differenced here.</div>
+  </div>
+  <div class="blk">
+    <div class="hd">Transactions</div>
+    <div class="row"><div class="k">Yankees</div><div class="v">Bednar's $23.15M QO decision due Tue. 11/17, still pending; Chisholm not tendered one.</div></div>
+    <div class="row"><div class="k">Knicks</div><div class="v">Beat Milwaukee 117-85 Tue. 11/10, 4th straight win; hosted Cleveland again Wed. 11/11, result not confirmed this run <span class="flag">[flag]</span>.</div></div>
+    <div class="row"><div class="k">Northwestern</div><div class="v">3-7, at No. 20 Ohio State today — not yet played as of press time.</div></div>
+  </div>
+</div>
+
+<h2 class="sec">Lead</h2>
+<div class="kicker">NVIDIA, HEADLESS</div>
+<h3 class="lede">Jensen Huang resigns as Nvidia CEO after a second affair surfaces, leaving the chip giant leaderless nine days before its highest-stakes earnings call yet</h3>
+<p>Nvidia's board announced Thursday that Jensen Huang had resigned as president, CEO and a board member, effective immediately, ending a 33-year run at the company he co-founded and turning the AI boom's most-watched earnings call &mdash; due Nov. 17 &mdash; into a debut for an interim chief instead. [fact, per Nvidia's Nov. 12 Form 8-K] Chief Financial Officer Colette Kress becomes interim CEO while keeping her CFO title; the board named Harvey C. Jones, former CEO and executive chairman of Synopsys, as Nvidia's first-ever independent board chair. The company says it is weighing internal and external candidates for a permanent successor and gave no timetable. Jones: "The Board has full confidence in Colette and the leadership team." Kress: "Our focus remains on serving our customers, partners, developers and shareholders." [fact]</p>
+<p>The resignation came nine days after Nvidia's board opened an independent investigation &mdash; run by a committee of independent directors with outside counsel at Wachtell, Lipton, Rosen &amp; Katz &mdash; into Huang's relationship with Alice Huang, a Chinese businesswoman and former executive at Megaspeed, a Singapore-based Nvidia customer accused of smuggling Nvidia chips into China; US intelligence reportedly assesses her as having passed information to Beijing. Huang admitted the affair, apologized to his family and Nvidia's staff, and the board initially said he would stay on as CEO through the inquiry. [fact, multi-sourced] What changed, by multiple accounts, was a second relationship: the New York Times reported Wednesday night that Huang, 63, had also had a relationship with Kimberly Powell, 48, Nvidia's VP of healthcare and a direct report, citing five sources; the Wall Street Journal reported the revelation "jolted" Nvidia's historically deferential board into preparing an immediate ouster. Neither Nvidia, Huang nor Powell has confirmed the Powell relationship on the record. [fact, single-sourced on the Powell relationship specifically; flag]</p>
+<p>The mechanism from here is governance, not product. Nvidia heads into its Nov. 17 print &mdash; still, by market cap, the most consequential earnings call tracked in this brief &mdash; run by a CFO on an interim basis, with no permanent CEO named, an unresolved espionage-adjacent board inquiry, and a congressional briefing request (three House committee chairs, predating the resignation) whose status is now unclear. [fact, background from issue No. 39; DEVELOPING] The second-order read: a stock that is a primary input into this year's broader AI-capex trade now carries a leadership vacuum through its most-watched print of the cycle, in the same five days that Cisco, Applied Materials and CoreWeave all beat estimates and raised guidance (see Business) &mdash; an unambiguously bullish demand signal arriving alongside an unambiguously messy governance story. [read]</p>
+<p>Markets split the difference rather than resolve it. Nvidia fell roughly 4.3% Thursday to close near $166, then fell further Friday &mdash; down about 2% on the day and 12.75% for the week, per one market wrap. [fact; flag, single-sourced on the weekly figure] The S&amp;P 500 fell only 0.35% Thursday and 0.40% Friday; decliners outnumbered advancers roughly 3-to-1 Thursday, but AMD and Broadcom both rallied as money rotated to Nvidia's chip peers rather than leaving the sector outright. [fact] That the broad market shrugged while the single stock most identified with the AI trade cratered is itself informative: Wall Street is treating this as an idiosyncratic Nvidia governance problem rather than a verdict on AI spending &mdash; a read Tuesday's print will test directly. [read]</p>
+<p class="note"><em>Watch:</em> whether Nvidia names a permanent CEO before Nov. 17; whether Huang's congressional briefing happens on any date now that he is no longer CEO; and whether the board's investigation findings become public before, during or after the earnings call.</p>
+
+<h2 class="sec">Politics</h2>
+<p>Kansas's governor's race remains uncalled. Democrat Cindy Holscher's lead grew to roughly 7,600 votes as of Nov. 10, per Axios, up from 5,500&ndash;6,000 on Nov. 4 &mdash; moving further outside the 0.5-point margin that triggers a state-funded recount, meaning Republican Ty Masterson would now need to post a bond to force one himself. [fact] Secretary of State Scott Schwab's close-race audit, covering six statewide races including governor, continues; no result from it was found this run. [DEVELOPING, same status as issue No. 39, margin moving further in Holscher's favor] Holscher has met with outgoing Gov. Laura Kelly on transition planning and calls herself governor-elect, but no outlet has independently called the race as of this run; the certified winner is inaugurated Jan. 11, 2027.</p>
+
+<h2 class="sec">Economics</h2>
+<p>October CPI, released Tuesday, ran hotter than consensus: headline +0.4% month-over-month, seasonally adjusted (vs. roughly +0.3% expected) and core (ex-food-and-energy) +0.3% (vs. +0.2% expected) &mdash; the same core pace as August and September. [fact, BLS] Shelter (+0.3%) drove over 30% of the headline gain; energy rebounded 0.7% after September's 5.2% jump, led by gasoline (+1.0%); food rose 0.5%, recreation 0.8%, motor-vehicle insurance 0.7%, partly offset by used cars and trucks (-1.2%). BLS again withheld the year-over-year all-items rate because the 2025 shutdown left no October 2025 base for comparison; September's y/y rate was 3.7%. [fact, BLS] Stocks sold off on the print Tuesday (S&amp;P 500 -0.4%) before rebounding sharply Wednesday on renewed AI-stock buying &mdash; a rebound Thursday's Huang news then interrupted (see Lead). October PPI was due Friday per BLS's own schedule, with a Dow Jones consensus calling for +0.4%; no actual October PPI print was confirmed this run despite the scheduled release date &mdash; flagged for next issue. [flag, "not confirmed as of press time"]</p>
+
+<h2 class="sec">Business</h2>
+<p>Three of the week's biggest prints all beat and raised guidance, even as Nvidia's leadership crisis dominated headlines. CoreWeave's Q3 (Tue.) showed revenue up 168% year-over-year to $3.66B, beating the roughly $3.54B consensus, with a $132.5B backlog and 2026 revenue guidance lifted to $13.0&ndash;13.3B; the net loss widened to $709M from $110M a year earlier against $37&ndash;39B of planned 2026 capex. [fact] Applied Materials' fiscal Q4 (Thu.) hit record revenue of $10.41B and record non-GAAP EPS of $4.16, both near the top of the company's own guidance range ($9.75&ndash;10.75B revenue / $3.82&ndash;4.22 EPS flagged last issue) and above the ~$10.3B/$3.65&ndash;4.00 Street consensus also flagged last issue; shares fell 3.6% intraday ahead of the print and rose only about 0.5% after hours despite the beat. [fact] Cisco's fiscal Q1 2027 (also Thu.) showed revenue up 24% to $18.5B (vs. ~$18.1B expected) and non-GAAP EPS of $1.40 (vs. $1.33 expected); the company raised FY2027 revenue guidance to $74.8&ndash;75.8B and lifted its AI-hyperscale revenue target to $9B from $7.5B. [fact] All three prints argue AI-infrastructure demand is intact independent of Nvidia's governance story.</p>
+
+<h2 class="sec">Technology</h2>
+<p>Beyond the Lead: Huang has reportedly agreed to testify before Congress despite no longer being CEO, though no confirmed date has surfaced since his resignation. [fact; DEVELOPING] China's Foreign Ministry had already dismissed the underlying spy allegations as "unsubstantiated" and "smears," a position unchanged by the resignation. Separately, Anthropic's IPO timeline firmed up: the company filed a second amended S-1 on Nov. 10 setting an estimated price range of $70&ndash;78 per share for 825 million Class A shares (plus a 123.75M-share overallotment), to list on Nasdaq as "ANT," alongside a $26.0B concurrent private placement from seven buyers including Nvidia, Google and Microsoft. [fact, per filing coverage] Valuation estimates diverge sharply across outlets &mdash; from roughly $917B&ndash;$1.02T to $1.3T to $1.4T fully diluted &mdash; and none is confirmed against the S-1 itself. [flag] One secondary tracker's claim of a Nov. 18 pricing date is not in the filing and is unconfirmed; this brief found no official pricing date this run. [flag]</p>
+
+<div class="pagebreak"></div>
+
+<h2 class="sec">Geopolitics</h2>
+<p>No standalone development beyond the Lead and Iran &amp; Hormuz sections this issue.</p>
+
+<h2 class="sec">Iran &amp; Hormuz</h2>
+<p>Beyond the Board: the diplomatic picture has deteriorated since issue No. 39's Qatar-brokered proposal. Secretary of State Rubio said Nov. 9 the US is "not close" to a breakthrough and that Iran's demands are "outrageous and ridiculous," while telling G7 counterparts in Paris that the economic pressure campaign means "there is no need for major combat operations" right now &mdash; a line aimed at reassuring European allies wary of further escalation. [fact] Iran's security chief Mohsen Rezaei went further, denying that talks are underway at all and saying the strait stays closed until Washington meets Iran's seven conditions &mdash; directly contradicting the Israeli-media-sourced account of an $8B-for-reopening trade reported last issue, which neither government has confirmed. [fact; flag, conflicting single-sourced accounts] On the ground, both of this brief's lagging trackers remain stale and weak: Windward-sourced transit counts show just 8 crossings in 24 hours as of Nov. 1 (11% of baseline), and Kpler's October flow estimate of 11.7M b/d, while up from September's 9.8M b/d, remains roughly a third below the pre-war baseline (see Board). [fact] Oil's own two-week slide &mdash; Brent down from the low $100s to Friday's $95.84 settle, after dipping below $90 mid-week &mdash; tracks supply-glut reporting (IEA, JPMorgan) more than any Hormuz reopening, underscoring that traders are pricing supply, not strait traffic, as the marginal story right now. [read]</p>
+
+<h2 class="sec">Sports</h2>
+<div class="sports">
+  <div class="row"><div class="k">Yankees</div><div class="v">Offseason. Bednar's $23.15M QO decision due Tue. 11/17, still pending; Chisholm not tendered one.</div></div>
+  <div class="row"><div class="k">Knicks</div><div class="v">Beat Milwaukee 117-85 Tue. 11/10, 4th straight win; hosted Cleveland again Wed. 11/11, result not confirmed this run.</div></div>
+  <div class="row"><div class="k">Northwestern</div><div class="v">3-7, at No. 20 Ohio State (6-3) today; game not yet played as of press time, 11-game series skid on the line.</div></div>
+</div>
+
+<div class="colophon">
+  <strong>Continuity.</strong> Dropped: the House Democratic leadership-vote date, unconfirmed four issues running. Resolved since issue No. 39: October CPI's actual print (hotter than expected); CoreWeave/AMAT/Cisco's actual results; Anthropic's price range. Watch for next issue: Nvidia's Nov. 17 earnings and any permanent-CEO news; October PPI's actual print; Kansas's governor race; Huang's testimony status; the Northwestern-Ohio State result.<br><br>
+  <strong>Unverified figures</strong> are marked in red. This issue: gold's $3,883.40 print; Friday's exact 10Y yield, VIX, DXY and Asia/Europe closes; the Wed. 11/11 Knicks-Cavaliers result; October PPI's actual print; Huang's congressional-testimony date; Anthropic's exact valuation and pricing date; the Qatar proposal's $8B/blockade terms. Nothing was estimated or filled from memory.</div>
+
+</body>
+</html>
