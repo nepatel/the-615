@@ -84,11 +84,16 @@ sends directly — no draft/Apps-Script relay needed. (Earlier issues believed o
 possible; that may have been true once, or may have been a mistaken assumption — either way,
 send_message now returns a message id on success. If it errors on some future run, fall back to
 mcp__Gmail__create_draft and note the fallback in the next issue's colophon.)
-Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails
-(base64-encoding either file, even the ~120KB PDF, blows past the session's context budget well
-before the MP3 is even considered). Instead:
-  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
-     CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
+As of issue No. 41 (2026-11-15): send_message also supports attachments directly via a
+file-reference syntax (content: "sha256:<64-hex>:<absolute path>", no base64 typed by the
+model), so it's worth trying for the PDF alone. But the connector enforces a combined
+attachment cap of ~3.1MB per call this run, and the MP3 (~4-5MB) alone exceeds it — the call
+fails hard for the *whole* send (nothing goes out, not even the PDF) rather than partially
+succeeding, and the tool explicitly says not to retry or split it yourself. So still fall back
+to GitHub blob links for both files rather than attaching either one. Instead:
+  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to the
+     session's assigned dev branch (see CONTINUITY below and the branch note there) BEFORE
+     composing the email, so the commit SHA is known.
   2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-YYYY-MM-DD.pdf
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-audio-YYYY-MM-DD.mp3
@@ -104,5 +109,22 @@ than being lost each run. Read the issue number out of the outgoing latest.md's 
 increment it for today's issue (start at No. 1 only if no prior latest.md/archived issue exists
 anywhere in daily-brief/ — check daily-brief/issues/ too, not just latest.md, in case of gaps).
 Then write today's plain-text issue to daily-brief/latest.md, and commit + push everything —
-latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above — directly to the
-repo's default branch (main), so tomorrow's run can read it and avoid repeating stories.
+latest.md, the dated archive copy, and the PDF/HTML/MP3 from DELIVER above.
+Branch note (as of issue No. 41): some sessions are scoped to a specific dev branch (e.g.
+claude/epic-darwin-r9izhu) by the harness/environment and are told not to push elsewhere
+without explicit permission — check for that constraint first. If one applies, push there,
+not to main, even though earlier text in this file said "main"; `git log --oneline` on the
+assigned branch will show whether prior issues already live there (they did as of No. 41 —
+No. 37/39/40 were all committed to claude/epic-darwin-r9izhu, not main), which is the
+reliable way to tell what the actual practice has been, regardless of what this file says.
+
+=== ENVIRONMENT NOTES (as of issue No. 41, 2026-11-15) ===
+`python3` on PATH may symlink to an older interpreter (e.g. 3.11) with no packages, while
+`pip`/`pip3` install into a different one (e.g. 3.13's site-packages) — `pip show playwright`
+/ `pip show piper-tts` will confirm the mismatch. If so, run render_pdf.py and
+`python3.13 -m piper` (or whichever version pip targets) explicitly, or prepend a shim
+directory on PATH with a `python3` symlink pointing at the right interpreter, rather than
+reinstalling. Also: `apt-get install -y espeak-ng` can fail with "Unable to locate package"
+on a fresh container until `apt-get update` has been run at least once this session.
+Also: scripts/render_pdf.py's `page.goto(f"file://{html_path}")` needs an *absolute* path —
+pass `$(pwd)/daily-brief-....html`, not a relative one, or Chromium errors on ERR_INVALID_URL.
