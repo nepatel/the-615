@@ -1,74 +1,59 @@
-# The 6:15 — Saturday, November 14, 2026 (No. 40)
+# The 6:15 — Sunday, November 15, 2026 (No. 41)
 
 ## The Board
 
 **Calendar — next 10 days (weekend: condensed)**
-- Tue 11/17: Nvidia's first earnings call under interim CEO Colette Kress (Q3 FY27, 2p PT/5p ET) — the AI trade's most-watched print; October retail sales, 8:30a ET; Bednar's $23.15M qualifying-offer deadline (Yankees).
-- Wed 11/18: October housing starts, 8:30a ET. Unconfirmed: whether Huang's congressional briefing (requested for this date pre-resignation) still happens; one tracker's guess at an Anthropic IPO pricing date, not in the S-1 itself.
+- Mon 11/16: Kansas's county close-race audits (6 statewide races incl. governor) due to finish, per Sec. of State Schwab's office; county canvasses follow.
+- Tue 11/17: Nvidia's Q3 FY27 print after the close (5p ET call) — first under interim CEO Kress; consensus EPS $2.47 on $108.8–109B revenue, vs. Nvidia's own $108.0B ±2% guide. Also: Oct. retail sales, 8:30a ET; Bednar's $23.15M qualifying-offer decision due (Yankees).
+- Wed 11/18: Oct. housing starts, 8:30a ET. Unconfirmed: the House Foreign Affairs-led closed-door Huang briefing requested for this date — his Nov. 11 reply deadline passed with no confirmed answer; one IPO-site timeline for Anthropic's pricing (trading next day), not in the S-1 itself.
 - No FOMC in this window — next meeting Dec. 9–10. Rocket launches, frontier-model releases and VC rounds: nothing cleared this brief's single-source bar this run.
 
-**Metrics — Fri. 11/13 close unless noted**
-- Equities/Oil: S&P 500 7,561.67 (-0.40%); Dow 52,347.55 (+0.10%); Nasdaq Comp. 25,136.27 (-0.91%, 2nd straight weekly loss). ICE Brent $95.84 (+0.02%, settle); NYMEX WTI $88.56 (-0.20%, settle) — both down ~2.5% on the week.
-- Rates/Gold/Gas: 10Y drifting toward high-4s/~5% Fri., no clean settle found [flag]; gold $3,883.40 (+0.18%) [flag, single-sourced]; AAA nat'l gas avg. $3.98/gal (11/10), first sub-$4 reading since spring.
-- VIX, DXY and Asia/Europe Fri. closes not independently confirmed this run [flag].
+**Metrics — weekend: no session**
+- Equities/Oil: No trading since Friday's close (S&P 500 7,561.67, -0.40%; Nasdaq 25,136.27, -0.91%; Dow +0.10%; already reported issue No. 40) — markets reopen Mon. 9:30a ET.
+- Rates/Gas: 10Y reportedly spiked to 5.17% intraday Fri. on Dec.-hike doubts [flag, single-sourced]; AAA nat'l gas avg. $3.98/gal, last confirmed 11/10 [flag, stale].
+- Gold, VIX, DXY and Asia/Europe levels not independently confirmed this run [flag]; next clean print at Monday's open.
 
-**Hormuz counters — Day 258 of closure**
-- Transits: 8 crossings/24h as of Nov. 1 (4 in, 4 out, 3 dark), ~11% of ~73/day baseline — Windward via political.org archive, 13 days stale [flag, aggregator].
-- Flows: Kpler 11.7M b/d October, up from 9.8M b/d September — both well under the ~17.1M b/d pre-war baseline.
-- Diplomacy: stalled, not advancing (see Iran & Hormuz).
+**Hormuz counters — Day 259 of closure**
+- Transits/flows: Unchanged since issue No. 40: 8 crossings/24h as of Nov. 1 (11% of baseline, Windward via aggregator) [flag, stale]; Kpler Oct. flow 11.7M b/d, still ~a third under the pre-war baseline. No fresher count surfaced this run.
 - Methodology note: transit counts, barrel-flow estimates, war-risk premia and IRGC/UKMTO claims measure different things on different cadences and are never averaged or differenced here.
 
 **Transactions**
 - Yankees: Bednar's $23.15M QO decision due Tue. 11/17, still pending; Chisholm not tendered one.
-- Knicks: beat Milwaukee 117-85 Tue. 11/10, 4th straight win; hosted Cleveland again Wed. 11/11, result not confirmed this run [flag].
-- Northwestern: 3-7, at No. 20 Ohio State today — not yet played as of press time.
+- Knicks: Beat Milwaukee 117-85 Tue. 11/10, 4th straight win; Wed. 11/11 vs. Cleveland result still not confirmed this run [flag], 2nd issue running.
+- Northwestern: [NEW] Lost 28-19 at Ohio State Sat. 11/14, falls to 6-4 (3-4 Big Ten) — see Sports.
 
-## Lead: Jensen Huang resigns as Nvidia CEO after a second affair surfaces, leaving the chip giant leaderless nine days before its highest-stakes earnings call yet
+## Lead: Huang's window to answer Congress closed unanswered the same day he resigned, leaving Nvidia's governance questions as open as its succession heading into Tuesday's print
 
-Nvidia's board announced Thursday that Jensen Huang had resigned as president, CEO and a board member, effective immediately, ending a 33-year run at the company he co-founded and turning the AI boom's most-watched earnings call — due Nov. 17 — into a debut for an interim chief instead. [fact, per Nvidia's Nov. 12 Form 8-K] CFO Colette Kress becomes interim CEO while keeping her CFO title; the board named Harvey C. Jones, former CEO and executive chairman of Synopsys, as Nvidia's first-ever independent board chair. The company is weighing internal and external candidates for a permanent successor with no timetable given. Jones: "The Board has full confidence in Colette and the leadership team." Kress: "Our focus remains on serving our customers, partners, developers and shareholders." [fact]
+Nvidia's board confirmed in a Form 8-K that it accepted Jensen Huang's resignation as president, CEO and director effective Nov. 11; Colette Kress, EVP and CFO, became interim CEO while keeping the CFO title, and Harvey C. Jones — a Nvidia director since 1993 and former Synopsys CEO — became the company's first-ever independent board chair. [fact, per Nvidia's Nov. 11 Form 8-K, GlobeNewswire release dated Nov. 12] The board says it is weighing internal and external candidates for a permanent CEO with no timetable given. [fact]
 
-The resignation came nine days after Nvidia's board opened an independent investigation — run by independent directors with outside counsel at Wachtell, Lipton, Rosen & Katz — into Huang's relationship with Alice Huang, a Chinese businesswoman and former executive at Megaspeed, a Singapore-based Nvidia customer accused of smuggling Nvidia chips into China; US intelligence reportedly assesses her as having passed information to Beijing. Huang admitted the affair, apologized, and the board initially said he would stay on as CEO through the inquiry. [fact, multi-sourced] What changed, by multiple accounts, was a second relationship: the New York Times reported Wednesday night that Huang, 63, had also had a relationship with Kimberly Powell, 48, Nvidia's VP of healthcare and a direct report, citing five sources; the Wall Street Journal reported the revelation "jolted" Nvidia's historically deferential board into preparing an immediate ouster. Neither Nvidia, Huang nor Powell has confirmed the Powell relationship on the record. [fact, single-sourced on the Powell relationship specifically; flag]
+What's new since issue No. 40: three House Foreign Affairs Committee Republican chairs had given Huang until Nov. 11 — the same day his resignation took effect — to accept a closed-door briefing requested for Nov. 18, one day after Tuesday's earnings call, or propose an alternate session day. [fact, per a House Foreign Affairs press release dated Nov. 5] No outlet has reported whether Huang, now a private citizen, answered; the committee's chair has said he would "absolutely" consider a subpoena if Huang doesn't respond. [fact; DEVELOPING] That leaves Nvidia's board-level investigation into Huang's relationship with Alice Huang — the Megaspeed-linked businesswoman US intelligence reportedly assesses as having passed information to Beijing — unresolved and now procedurally separate from the man it concerns, since Huang no longer works for the company his own board is investigating. [fact, background from issues No. 39–40]
 
-The mechanism from here is governance, not product: Nvidia heads into its Nov. 17 print run by a CFO on an interim basis, with no permanent CEO named, an unresolved espionage-adjacent board inquiry, and a congressional briefing request (predating the resignation) whose status is now unclear. [fact, background from issue No. 39; DEVELOPING] The second-order read: a stock central to this year's AI-capex trade carries a leadership vacuum through its most-watched print of the cycle, in the same five days Cisco, Applied Materials and CoreWeave all beat estimates and raised guidance (see Business). [read]
+The market's read into Tuesday has shifted slightly over the weekend. Friday's session saw the S&P 500 and Nasdaq close down for a second day (-0.40%/-0.91%) even as the week finished higher (S&P +2.51%, its best week since August), with one market recap attributing Friday specifically to renewed semiconductor selling (Nvidia, AMD, Broadcom), a reported-but-BLS-unconfirmed October PPI print (+0.3% m/m vs. +0.4% consensus, +6.5% y/y), and a 10-year Treasury yield that reportedly touched 5.17% intraday on December rate-hike doubts. [fact; flag, PPI and 10Y figures single-sourced, not independently confirmed against BLS/Treasury this run] The same recap noted bitcoin fell below $70,000 for the first time in nearly three months, a risk-off signal moving in the same direction as the AI-stock retreat. [fact; flag, single-sourced] None of this is primarily about Nvidia's leadership vacuum — but it means Tuesday's print now lands on a market already nursing a rates scare and a second straight down week in the two large-cap indexes, not the clean rebound setup Wednesday's rally had suggested. [read]
 
-Markets split the difference rather than resolve it. Nvidia fell roughly 4.3% Thursday to close near $166, then fell further Friday — down about 2% on the day and 12.75% for the week, per one market wrap. [fact; flag, single-sourced on the weekly figure] The S&P 500 fell only 0.35% Thursday and 0.40% Friday; decliners outnumbered advancers roughly 3-to-1 Thursday, but AMD and Broadcom both rallied as money rotated to Nvidia's chip peers. [fact] Wall Street is treating this as an idiosyncratic Nvidia governance problem rather than a verdict on AI spending — a read Tuesday's print will test directly. [read]
-
-*Watch:* whether Nvidia names a permanent CEO before Nov. 17; whether Huang's congressional briefing happens on any date now that he is no longer CEO; and whether the board's investigation findings become public before, during or after the earnings call.
+*Watch:* whether Huang responds to the briefing request before Tuesday's call; whether Nvidia names a permanent CEO before then; whether October PPI's actual BLS print confirms or contradicts the single-sourced +0.3% figure above.
 
 ## Politics
 
-Kansas's governor's race remains uncalled. Democrat Cindy Holscher's lead grew to roughly 7,600 votes as of Nov. 10, per Axios, up from 5,500–6,000 on Nov. 4 — moving further outside the 0.5-point margin that triggers a state-funded recount. [fact] Secretary of State Scott Schwab's close-race audit, covering six statewide races including governor, continues; no result from it was found this run. [DEVELOPING, same status as issue No. 39, margin moving further in Holscher's favor] Holscher has met with outgoing Gov. Laura Kelly on transition planning and calls herself governor-elect, but no outlet has independently called the race as of this run; the certified winner is inaugurated Jan. 11, 2027.
-
-## Economics
-
-October CPI, released Tuesday, ran hotter than consensus: headline +0.4% month-over-month, seasonally adjusted (vs. ~+0.3% expected) and core +0.3% (vs. +0.2% expected) — the same core pace as August and September. [fact, BLS] Shelter (+0.3%) drove over 30% of the headline gain; energy rebounded 0.7% after September's 5.2% jump, led by gasoline (+1.0%); food rose 0.5%. BLS again withheld the year-over-year all-items rate because the 2025 shutdown left no October 2025 base; September's y/y rate was 3.7%. [fact, BLS] Stocks sold off Tuesday (S&P 500 -0.4%) before rebounding sharply Wednesday on renewed AI-stock buying, a rebound Thursday's Huang news then interrupted. October PPI was due Friday per BLS's schedule (Dow Jones consensus +0.4%); no actual print was confirmed this run. [flag, "not confirmed as of press time"]
-
-## Business
-
-CoreWeave's Q3 (Tue.) showed revenue up 168% y/y to $3.66B, beating the ~$3.54B consensus, backlog at $132.5B, 2026 revenue guidance lifted to $13.0–13.3B; net loss widened to $709M from $110M on $37–39B of planned 2026 capex. [fact] Applied Materials' fiscal Q4 (Thu.) hit record revenue of $10.41B and record non-GAAP EPS of $4.16, near the top of its own guidance range ($9.75–10.75B/$3.82–4.22 EPS, flagged last issue) and above the ~$10.3B/$3.65–4.00 Street consensus also flagged last issue; shares fell 3.6% intraday ahead of the print, rose only ~0.5% after hours. [fact] Cisco's fiscal Q1 2027 (Thu.) showed revenue up 24% to $18.5B (vs. ~$18.1B expected), non-GAAP EPS $1.40 (vs. $1.33 expected); raised FY2027 revenue guidance to $74.8–75.8B and AI-hyperscale target to $9B from $7.5B. [fact]
+Kansas's governor's race remains uncalled, but a procedural clock is now running: Secretary of State Scott Schwab's close-race audit — hand-counting roughly 10% of precincts in each county across six statewide races, including governor — is due to finish by Monday, Nov. 16, with Johnson County alone hand-counting about 125,000 ballots. [fact] Results become official only at the county canvasses that follow; a recount is optional and must be requested within a day of certification. [fact] Democrat Cindy Holscher's lead over Republican Ty Masterson stood at roughly 7,600 votes as of Nov. 10, per Axios — unchanged from issue No. 40, no fresher count surfaced this run. [DEVELOPING] Holscher continues to call herself governor-elect and has met with outgoing Gov. Laura Kelly on transition planning; no outlet has independently called the race.
 
 ## Technology
 
-Huang has reportedly agreed to testify before Congress despite no longer being CEO; no confirmed date since his resignation. [fact; DEVELOPING] China's Foreign Ministry had already dismissed the spy allegations as "unsubstantiated... smears." Anthropic's IPO timeline firmed: second amended S-1 filed Nov. 10 sets an estimated $70–78/share for 825M Class A shares (plus 123.75M-share overallotment), Nasdaq listing as "ANT," alongside a $26.0B private placement from Nvidia, Google and Microsoft. [fact] Valuation estimates diverge sharply ($917B–$1.02T to $1.3T to $1.4T fully diluted); none confirmed against the S-1. [flag] A Nov. 18 pricing-date claim is not in the filing and unconfirmed. [flag]
-
-## Geopolitics
-
-No standalone development beyond the Lead and Iran & Hormuz sections this issue.
+Beyond the Lead: Anthropic's IPO timeline firmed slightly over the weekend. One tracker citing the company's own IPO-information site lists pricing for Nov. 18 and trading beginning Nov. 19, subject to regulatory clearance — a day later on trading than the Nov. 18 figure floated (and flagged as unconfirmed) in issue No. 40. [fact, single-sourced to a secondary tracker; flag, not confirmed against the S-1/A itself] Separately, at least one outlet now frames the debut as more likely Thanksgiving week; this brief found no outlet reconciling the two timelines. [flag, conflicting] The underlying terms are unchanged since the Nov. 10 S-1/A: 825M Class A shares plus a 123.75M-share overallotment at an estimated $70–78/share, a $26.0B concurrent private placement from Nvidia, Google and Microsoft among others, and a Nasdaq listing as "ANT." [fact]
 
 ## Iran & Hormuz
 
-The diplomatic picture has deteriorated since issue No. 39's Qatar-brokered proposal. Rubio said Nov. 9 the US is "not close" to a breakthrough and called Iran's demands "outrageous and ridiculous," while telling G7 counterparts in Paris there is "no need for major combat operations" right now. [fact] Iran's security chief Mohsen Rezaei denied talks are underway at all, saying the strait stays closed until Washington meets Iran's seven conditions — contradicting the Israeli-media-sourced $8B-for-reopening account from last issue, unconfirmed by either government. [fact; flag, conflicting single-sourced accounts] Both lagging trackers remain stale: 8 crossings/24h as of Nov. 1 (11% of baseline); Kpler's October flow of 11.7M b/d, up from September's 9.8M b/d, still ~a third below pre-war baseline. [fact] Oil's slide — from the low $100s to Friday's $95.84 settle — tracks supply-glut reporting (IEA, JPMorgan) more than any Hormuz reopening. [read]
+Little moved since issue No. 40. Rubio said Nov. 10 there has been "progress made in those talks, but not finality yet," describing Oman-mediated discussions on reopening the strait — a notably softer framing than his Nov. 9 "not close to a breakthrough" line, with no public account of what changed in 24 hours. [fact; flag, apparently conflicting single-sourced quotes from the same official] Iranian officials pushed back, saying only Oman-level talks are underway and no major US meetings are planned; Rubio has separately said the US won't accept an Iranian tolling system on the strait. [fact] The lagging trackers — 8 crossings/24h as of Nov. 1, Kpler's October flow of 11.7M b/d — remain the most current this brief could confirm (see Board); no fresher strike, transit or war-risk-premium data surfaced this run.
 
 ## Sports
 
-- Yankees: Offseason. Bednar's $23.15M QO decision due Tue. 11/17, still pending; Chisholm not tendered one.
-- Knicks: Beat Milwaukee 117-85 Tue. 11/10, 4th straight win; hosted Cleveland again Wed. 11/11, result not confirmed this run.
-- Northwestern: 3-7, at No. 20 Ohio State (6-3) today; not yet played as of press time, 11-game series skid on the line.
+- Yankees: Offseason. Bednar's $23.15M QO decision due Tue. 11/17, still pending.
+- Knicks: Beat Milwaukee 117-85 Tue. 11/10, 4th straight win, 6-4; Wed. 11/11 vs. Cleveland (bid for 5th straight) not confirmed this run.
+- Northwestern: Lost 28-19 at No. 20 Ohio State (7-3) Sat. 11/14, falls to 6-4 (3-4 Big Ten); series skid continues.
 
 ## Continuity notes for next issue
 
-Dropped: the House Democratic leadership-vote date, unconfirmed four issues running. Resolved since issue No. 39: October CPI's actual print (hotter than expected); CoreWeave/AMAT/Cisco's actual results; Anthropic's price range. Watch for next issue: Nvidia's Nov. 17 earnings and any permanent-CEO news; October PPI's actual print; Kansas's governor race; Huang's testimony status; the Wed. 11/11 Knicks-Cavaliers and Northwestern-Ohio State results.
+Correction: issue No. 40 reported Northwestern's pre-game record as 3-7; CBS Sports' and Fox Sports' gametracker pages both show 6-3 entering Saturday's game and 6-4 after — this issue uses the confirmed post-game figure and flags the earlier number as an error, not a restated fact. Dropped: the House Democratic leadership-vote date (unconfirmed five issues running); Business and a standalone Economics section (nothing new beyond the Lead's PPI item this run, per weekend practice). Watch for next issue: Nvidia's Nov. 17 earnings and any permanent-CEO or Huang-briefing news; October PPI's BLS-confirmed print; Kansas's county canvass results; the Wed. 11/11 Knicks-Cavaliers result, still outstanding.
 
 ## Unverified figures flagged this issue
 
-Gold's $3,883.40 print; Friday's exact 10Y yield, VIX, DXY and Asia/Europe closes; the Wed. 11/11 Knicks-Cavaliers result; October PPI's actual print; Huang's congressional-testimony date; Anthropic's exact valuation and pricing date; the Qatar proposal's $8B/blockade terms. Nothing was estimated or filled from memory.
+October PPI's +0.3%/+6.5% figures and Friday's 10Y 5.17% intraday print (both single-sourced, not BLS/Treasury-confirmed); gold, VIX, DXY and Asia/Europe closes; the Wed. 11/11 Knicks-Cavaliers result; Huang's response (or non-response) to the House briefing request; Anthropic's exact pricing/trading dates. Nothing was estimated or filled from memory.
