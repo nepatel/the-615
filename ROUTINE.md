@@ -84,9 +84,12 @@ sends directly — no draft/Apps-Script relay needed. (Earlier issues believed o
 possible; that may have been true once, or may have been a mistaken assumption — either way,
 send_message now returns a message id on success. If it errors on some future run, fall back to
 mcp__Gmail__create_draft and note the fallback in the next issue's colophon.)
-Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails
-(base64-encoding either file, even the ~120KB PDF, blows past the session's context budget well
-before the MP3 is even considered). Instead:
+Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails.
+Earlier issues hit a context-budget wall base64-encoding the files by hand; as of issue No. 43
+(2026-11-26), mcp__Gmail__send_message's sha256:<hash>:<path> file-reference syntax avoids that
+(no base64 in-context), but the connector call itself is capped at 4.2MB total for this session,
+leaving ~3.1MB of headroom for files — the MP3 alone (~4-5.5MB per issue) already exceeds that.
+Don't retry with one file dropped; just use the links below. Instead:
   1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
      CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
   2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
