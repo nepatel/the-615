@@ -64,8 +64,16 @@ As of issue No. 14 (2026-09-12): `pip install playwright --break-system-packages
 `playwright-core` — no node_modules in this repo) and drive it from Python. The pre-installed
 Chromium at $PLAYWRIGHT_BROWSERS_PATH (/opt/pw-browsers) lives under a versioned subdirectory,
 e.g. /opt/pw-browsers/chromium-1194/chrome-linux/chrome, not .../chromium/chrome-linux/chrome —
-glob for `chromium-*/chrome-linux/chrome` if the version number has moved on, and pass that
-executable_path explicitly to chromium.launch().
+glob for `chromium-*/chrome-linux*/chrome` if the version number or dir-naming has moved on
+(issue No. 43 found chrome-linux64, not chrome-linux), and pass that executable_path explicitly
+to chromium.launch().
+As of issue No. 43 (2026-11-27): on this image, the bare `python3` on PATH is a symlink to
+Python 3.11, but `pip install --break-system-packages` installs into 3.13's site-packages
+(/usr/local/bin/python3.13 exists separately). `python3 -c "import playwright"` will falsely
+report ModuleNotFoundError even right after a successful-looking pip install — check with
+`python3.13` explicitly, and if make_audio.sh's internal bare `python3` calls need it too, put a
+symlink to python3.13 named `python3` earlier on PATH before invoking the script, rather than
+editing the script.
 
 === AUDIO COMPANION ===
 Write a SEPARATE spoken script (don't read the page aloud) to daily-brief/audio-script.txt:
@@ -84,18 +92,25 @@ sends directly — no draft/Apps-Script relay needed. (Earlier issues believed o
 possible; that may have been true once, or may have been a mistaken assumption — either way,
 send_message now returns a message id on success. If it errors on some future run, fall back to
 mcp__Gmail__create_draft and note the fallback in the next issue's colophon.)
-Still do NOT attempt to attach the PDF/MP3 inline: this has been tried and reliably fails
-(base64-encoding either file, even the ~120KB PDF, blows past the session's context budget well
-before the MP3 is even considered). Instead:
-  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo root and push to main (see
-     CONTINUITY below) BEFORE composing the email, so the commit SHA is known.
-  2. Link to them in the email body as GitHub blob URLs pinned to that commit SHA, e.g.
-       https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-YYYY-MM-DD.pdf
+As of issue No. 43 (2026-11-27): do NOT base64-encode either file yourself — the tool now accepts
+a file-reference attachment instead: set an attachment's `content` to
+`sha256:<64-hex-sha256-of-the-file>:<absolute-path>` and it reads the file directly, no context
+cost. BUT the connector call itself is capped at ~4.2MB total per call (not the same as Gmail's
+own 25MB attachment limit) — the ~170KB PDF fits and attaches cleanly, but the ~5MB MP3 does not
+and the call is rejected outright (no partial send) if you try to include it. So: attach the PDF
+directly via file-reference; for the MP3, fall back to the commit-and-link approach below (same
+mechanism as before, just only needed for the MP3 now):
+  1. Commit today's PDF and MP3 (and the rendered HTML) to the repo and push (see CONTINUITY below
+     for which branch — the session's branch policy may require a feature branch, not main) BEFORE
+     composing the email, so the commit SHA is known.
+  2. Link the MP3 in the email body as a GitHub blob URL pinned to that commit SHA, e.g.
        https://github.com/nepatel/the-615/blob/<commit-sha>/daily-brief-audio-YYYY-MM-DD.mp3
-     (nepatel/the-615 is a public repo, so these resolve with no sign-in required.)
+     (nepatel/the-615 is a public repo, so this resolves with no sign-in required, regardless of
+     which branch the commit SHA lives on.)
 Send to: neelhpatel94@gmail.com
   Subject: The 6:15 — [Day, Month D]
-  Body: the three-line summary of the top items, the audio length, and the two links above.
+  Body: the three-line summary of the top items, the audio length, and the MP3 link above.
+  Attach: the PDF directly (file-reference, not base64).
 
 === CONTINUITY ===
 Before overwriting it, if daily-brief/latest.md already exists, copy it to
